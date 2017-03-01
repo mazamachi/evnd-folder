@@ -299,14 +299,14 @@
     "[Note ID: 414d0bf6839b3c6df4293bd3ed679866]": {
         "creationTime": "2017-03-01 17:07:15",
         "enCreationDate": "20170301T175415",
-        "lastSyncDate": null,
-        "enModificationDate": "20170301T175424",
-        "modificationTime": "2017-03-01 17:54:22",
+        "lastSyncDate": "20170301T175424",
+        "enModificationDate": "20170301T175506",
+        "modificationTime": "2017-03-01 17:55:04",
         "metaDate": null,
         "dir": "20170301/",
         "path": "/Users/sho/Google_Drive/evnd/20170301",
         "title": "世界で闘うプログラミング力を鍛える150問",
-        "noteLink": null,
+        "noteLink": "evernote:///view/2147483647/s133/401be46e-5672-4f04-b52a-ff80b8207f79/401be46e-5672-4f04-b52a-ff80b8207f79/",
         "tags": [
             "evnd",
             "programming",
@@ -316,7 +316,10 @@
             "name": "mazamachi のノートブック",
             "type": "synchronized"
         },
-        "enExportedFiles": [],
+        "enExportedFiles": [
+            "/Users/sho/Google_Drive/evnd/20170301/世界で闘うプログラミング力を鍛える150問_evernote.html/",
+            "/Users/sho/Google_Drive/evnd/20170301/世界で闘うプログラミング力を鍛える150問_evernote.enex"
+        ],
         "format": "Markdown",
         "fnStem": "世界で闘うプログラミング力を鍛える150問",
         "enml": null,
@@ -368,7 +371,8 @@
         },
         "contentMD5": "1562d723fe89b1d3d2151160aecbb26f",
         "filePath": "/Users/sho/Google_Drive/evnd/20170301/世界で闘うプログラミング力を鍛える150問.markdown",
-        "moved": false
+        "moved": false,
+        "dontChangeTime": true
     },
     "[Note ID: 0635914bd1dd90e0897c5acddf8fa1d5]": {
         "creationTime": "2017-03-01 17:11:07",
