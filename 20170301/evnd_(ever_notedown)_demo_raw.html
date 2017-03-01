@@ -1,0 +1,483 @@
+<head><title>EVND (Ever Notedown) Demo - Help Document (Draft)</title><link rel="stylesheet" type="text/css" href="/Users/sho/Google_Drive/evnd/20170301/evnd_(ever_notedown)_demo_style.css"></head><div class="ever-notedown-preview"><div class="note-meta-info"><div class="note-meta-info-content"><p class="note-info"><span class="icon icon-tag"></span><span class="badge note-tag">EVND</span><span style="margin: 2px 2px;"></span></p><p class="text-info note-title"><span class="icon icon-pencil">EVND (Ever Notedown) Demo - Help Document (Draft)</span></p></div></div><p>This is an Atom plugin for editing Evernote notes in Markdown format that works with the Evernote Mac client via AppleScript.</p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; ">This doc is intended to be viewed in Atom with EVND. To see the result as a rendered note in Evernote, see <a href="https://www.evernote.com/l/AER4LWAANh9JY7PBhP9q8rYllx9Znkw5zY8">this sample note</a>. If you are currently viewing this note on <code>www.evernote.com</code>, it&apos;s recommended that you use <code>Save to Evernote</code> to view with your Evernote Mac Client.   </p>
+</blockquote>
+<div class="evnd-toc-div" title="evnd-toc-div"><ul class="table-of-contents toc-level-1" title="evnd-toc"><li><span><a href="#evnd-ever-notedown-demo-help-document-draft-" class="toc-jump-link">EVND (Ever Notedown) Demo - Help Document (Draft)</a><span></span></span></li><ul class="table-of-contents toc-level-2"><li><span><a href="#intro" class="toc-jump-link">Intro</a><span></span></span></li><ul class="table-of-contents toc-level-3"><li><span><a href="#overview" class="toc-jump-link">Overview</a><span></span></span></li><li><span><a href="#status" class="toc-jump-link">Status</a><span></span></span></li></ul><li><span><a href="#installation" class="toc-jump-link">Installation</a><span></span></span></li><ul class="table-of-contents toc-level-3"><li><span><a href="#requirements" class="toc-jump-link">Requirements</a><span></span></span></li><li><span><a href="#preparation" class="toc-jump-link">Preparation</a><span></span></span></li><li><span><a href="#install" class="toc-jump-link">Install</a><span></span></span></li><li><span><a href="#using-evnd" class="toc-jump-link">Using EVND</a><span></span></span></li><ul class="table-of-contents toc-level-4"><li><span><a href="#first-time" class="toc-jump-link">First Time</a><span></span></span></li><li><span><a href="#activating-evnd" class="toc-jump-link">Activating EVND</a><span></span></span></li><li><span><a href="#atom-ui-theme-compatibility" class="toc-jump-link">Atom UI Theme compatibility</a><span></span></span></li><li><span><a href="#shortcut-keys-general-evnd-functions-" class="toc-jump-link">Shortcut Keys (General EVND Functions)</a><span></span></span></li></ul></ul><li><span><a href="#features" class="toc-jump-link">Features</a><span></span></span></li><ul class="table-of-contents toc-level-3"><li><span><a href="#communicating-with-evernote" class="toc-jump-link">Communicating with Evernote</a><span></span></span></li><ul class="table-of-contents toc-level-4"><li><span><a href="#m2-way-syncing-i-class-fa-fa-refresh-i-" class="toc-jump-link">2-way syncing <i class="fa fa-refresh"></i></a><span></span></span></li><li><span><a href="#images-and-attachments-i-class-icon-icon-file-media-i-" class="toc-jump-link">Images and Attachments <i class="icon icon-file-media"></i></a><span></span></span></li></ul><li><span><a href="#note-management" class="toc-jump-link">Note Management</a><span></span></span></li><li><span><a href="#themes-for-rendering" class="toc-jump-link">Themes for Rendering</a><span></span></span></li><li><span><a href="#extended-gfm-syntax" class="toc-jump-link">Extended GFM Syntax</a><span></span></span></li><ul class="table-of-contents toc-level-4"><li><span><a href="#latex-mathematical-expressions-with-mathjax" class="toc-jump-link">LaTeX Mathematical Expressions with MathJax</a><span></span></span></li><ul class="table-of-contents toc-level-5"><li><span><a href="#mathjax-basic-usage" class="toc-jump-link">MathJax: Basic Usage</a><span></span></span></li><li><span><a href="#mathjax-custom-macros" class="toc-jump-link">MathJax: Custom Macros</a><span></span></span></li></ul><li><span><a href="#table-of-contents" class="toc-jump-link">Table of Contents</a><span></span></span></li><li><span><a href="#footnotes" class="toc-jump-link">Footnotes</a><span></span></span></li><li><span><a href="#attachments-i-class-fa-fa-paperclip-i-" class="toc-jump-link">Attachments <i class="fa fa-paperclip"></i></a><span></span></span></li><li><span><a href="#images" class="toc-jump-link">Images</a><span></span></span></li><li><span><a href="#icon-fonts-and-emojis" class="toc-jump-link">Icon Fonts and Emojis</a><span></span></span></li><li><span><a href="#fenced-code-blocks" class="toc-jump-link">Fenced code blocks</a><span></span></span></li><li><span><a href="#tables" class="toc-jump-link">Tables</a><span></span></span></li><li><span><a href="#checkboxes" class="toc-jump-link">Checkboxes</a><span></span></span></li></ul><li><span><a href="#editing-markdown-files-in-atom-with-evnd" class="toc-jump-link">Editing Markdown Files in Atom with EVND</a><span></span></span></li><ul class="table-of-contents toc-level-4"><li><span><a href="#quick-notes-from-selection-code-snippet-" class="toc-jump-link">Quick notes from selection (code snippet)</a><span></span></span></li><li><span><a href="#keyboard-shortcuts-for-text-formating" class="toc-jump-link">Keyboard Shortcuts for Text Formating</a><span></span></span></li><li><span><a href="#syncronized-scrolling" class="toc-jump-link">Syncronized Scrolling</a><span></span></span></li><li><span><a href="#auto-tab-switching" class="toc-jump-link">Auto tab switching</a><span></span></span></li><li><span><a href="#enhanced-syntax-highlighting-in-editors" class="toc-jump-link">Enhanced Syntax Highlighting in Editors</a><span></span></span></li><ul class="table-of-contents toc-level-5"><li><span><a href="#inline-html-highlighting" class="toc-jump-link">Inline HTML Highlighting</a><span></span></span></li><li><span><a href="#attachment-definition" class="toc-jump-link">Attachment Definition</a><span></span></span></li><li><span><a href="#mathjax-highlighting" class="toc-jump-link">MathJax Highlighting</a><span></span></span></li></ul></ul></ul><li><span><a href="#troubleshooting" class="toc-jump-link">Troubleshooting</a><span></span></span></li><ul class="table-of-contents toc-level-3"><li><span><a href="#frequrently-asked-questions" class="toc-jump-link">Frequrently Asked Questions</a><span></span></span></li><li><span><a href="#evernote-bugs-i-class-icon-icon-bug-i-" class="toc-jump-link">Evernote Bugs <i class="icon icon-bug"></i></a><span></span></span></li><ul class="table-of-contents toc-level-4"><li><span><a href="#cannot-create-notebook-with-applescript-ticket-1014193" class="toc-jump-link">Cannot create notebook with AppleScript - Ticket# 1014193</a><span></span></span></li><li><span><a href="#random-upload-limit-error-ticket-953466" class="toc-jump-link">Random Upload Limit Error - Ticket# 953466</a><span></span></span></li></ul></ul><li><span><a href="#tips" class="toc-jump-link">Tips</a><span></span></span></li><li><span><a href="#credits" class="toc-jump-link">Credits</a><span></span></span></li><ul class="table-of-contents toc-level-3"><li><span><a href="#inspired-by" class="toc-jump-link">Inspired by</a><span></span></span></li></ul><li><span><a href="#what-else-" class="toc-jump-link">What Else?</a><span></span></span></li></ul></ul></div>
+<h1 id="evnd-ever-notedown-demo-help-document-draft-"><a name="toc:evnd-ever-notedown-demo-help-document-draft-" href="#"></a>EVND (Ever Notedown) Demo - Help Document (Draft)</h1>
+<h2 id="intro"><a name="toc:intro" href="#"></a>Intro</h2>
+<h3 id="overview"><a name="toc:overview" href="#"></a>Overview</h3>
+<p>This is an Atom plugin for editing Evernote notes in Markdown format.</p>
+<p> <img src="/Users/sho/.atom/packages/ever-notedown/docs/demo/demo-0-create-note.gif" alt="demo overview" title="demo-0-create-note.gif" id="img-src-demo-0-create-note-gif"></p>
+<ul>
+<li><strong>OS X only</strong> (See <code>Installation</code> and <code>Status</code> section for more info)</li>
+<li><strong>Local note editing</strong>: <ul>
+<li>This plugin works by communicating with the Evernote OSX Client via AppleScript, so all the work is done on your local machine, no authorization required.</li>
+</ul>
+</li>
+<li><strong>2-way editing (...ish)</strong><ul>
+<li>Edit notes in EVND or in Evernote, and sync changes... to some extend.</li>
+<li>Import notes from Evernote and convert to Markdown format.</li>
+</ul>
+</li>
+<li><strong>Evenote meta info: notebook and tags</strong> <a href="https://www.evernote.com/l/AETmq10fstdMo5-b5RJSrIAyBY6sScLvYqs"><strong>[demo]</strong></a></li>
+<li><strong>Images and Attachments</strong> <a href="https://www.evernote.com/l/AESqRZ75YFRDrojYCY5l0XNhp6EATx1Vy2c"><strong>[See demo]</strong></a><ul>
+<li>Pasting, drag-and-drop, markdown syntax, etc.</li>
+<li>2-way sync (get changes/annotations made in Evernote)</li>
+</ul>
+</li>
+<li><strong>Functioning TOC (table of contents) and footnotes</strong><ul>
+<li>Clickable links even in Evernote client!<sup><a href="#fn:sample footnote" id="fnref:sample footnote" name="fnref:sample footnote" class="footnote">1</a></sup> <a href="https://www.evernote.com/l/AETJY1bRe-5AtLzDibAX06qeFH4b47uRg5E"><strong>[See demo]</strong></a></li>
+</ul>
+</li>
+<li><strong>LaTeX Mathematical Expressions with MathJax (and user-defined Macros)</strong> <a href="https://www.evernote.com/l/AES5wqBjghpBh79jgzEGhqByqKD1uw64B5U"><strong>[See demo]</strong></a></li>
+<li><strong>Icon fonts and emojis</strong> <img class="emoji" title=":tada:" alt="tada" src="/Users/sho/.atom/packages/ever-notedown/node_modules/emoji-images/pngs/tada.png" height="20"></li>
+<li><strong>All the regular Github-Flavored-Markdown features (links, lists, tables, etc.)</strong></li>
+<li><strong>Quick notes from selected text: code snippets, etc.</strong></li>
+<li><strong>Configurable themes for markdown rendering</strong> <a href="https://www.evernote.com/l/AERp-6EbVWJDl5ZHzWwhll_AxrLpEFd13N4"><strong>[Demo here]</strong></a><ul>
+<li>Several markdown rendering themes are available to choose, you can also edit the stylesheets yourself.</li>
+</ul>
+</li>
+<li><strong>Auto backup and version control (with GIT)</strong></li>
+<li><strong>Sort &amp; search notes</strong> <a href="https://www.evernote.com/l/AETukpDn_w1DYKIQu0GVqc29jKS5ADeCR-A"><strong>[See demo]</strong></a></li>
+<li><strong>Export well-formated HTMLs</strong></li>
+<li><strong>Enhanced Markdown editing experience in Atom</strong><ul>
+<li>Supports inline-HTML syntax highlighting</li>
+<li>Syncronized scrolling and tab switching of editor and preview panel</li>
+<li>Shortcut keys for formatting text (bold, italics, udnerline, highlights, blockquotes, etc.)</li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<blockquote>
+<h3 id="status" style=" margin-top: 0px; "><a name="toc:status" href="#"></a>Status</h3>
+<p style=" margin-bottom: 0px; ">Works For Me... (WFM)<sup><a href="#fn:footnote status" id="fnref:footnote status" name="fnref:footnote status" class="footnote">2</a></sup></p>
+</blockquote>
+<p>&nbsp;<br>&nbsp;   </p>
+<h2 id="installation"><a name="toc:installation" href="#"></a>Installation</h2>
+<h3 id="requirements"><a name="toc:requirements" href="#"></a>Requirements</h3>
+<ul>
+<li>OS X <code>Mavericks, Yosemite</code></li>
+<li>Atom <code>&gt;=0.202.0</code> <sub>WFM</sub> <sup><a href="#fn:wfm" id="fnref:wfm" name="fnref:wfm" class="footnote">3</a></sup></li>
+<li>Evernote OSX Client <code>&gt;6.0.0</code><ul>
+<li>For EVND (particularly the <u><em>import</em></u> function) to work properly, you will need the EN client installed with the dmg downloaded directly from <a href="https://evernote.com/download/">the offical website</a>, <strong><em>not</em></strong> the one from the mac app store.<sup><a href="#fn:appstore client problem" id="fnref:appstore client problem" name="fnref:appstore client problem" class="footnote">4</a></sup></li>
+</ul>
+</li>
+<li>GIT <code>2.1.2</code> <sub>WFM</sub><sup><a href="#fn:wfm" id="fnref:wfm" name="fnref:wfm" class="footnote">3</a></sup> &nbsp; (Version 2+ should work just fine.)</li>
+</ul>
+<h3 id="preparation"><a name="toc:preparation" href="#"></a>Preparation</h3>
+<p><strong>Before installing the EVND plugin</strong>, please consider <em><strong>Setting Up EVND Storage</strong></em> first (assuming you already have Atom installed):  </p>
+<ol>
+<li>Decide where you want your EVND notes (markdown text file, rendered HTMLs, images and attachments, etc.) to locate.<br>-- Personally, I would put the EVND folder in a cloud drive sync&apos;d directory (dropbox, google drive, onedrive, etc.).     </li>
+<li>Create the folder, and make a symbolic link to <code>~/.atom/evnd</code>:     <pre class="editor-colors lang-bash evnd-fenced-code-block fenced-code-block-bash" title="fenced-code-block-bash" id="fenced-code-block-0"><span class="line"><span class="source shell"><span>$&nbsp;ln&nbsp;-s&nbsp;path/to/your/folder&nbsp;</span><span class="keyword operator tilde shell"><span>~</span></span><span>/.atom/evnd</span></span></span></pre>
+</li>
+<li>Enter the folder, create a file named <code>index.json</code>, write <code>{}</code> and save.    <pre class="editor-colors lang-bash evnd-fenced-code-block fenced-code-block-bash" title="fenced-code-block-bash"><span class="line"><span class="source shell"><span>$&nbsp;</span><span class="support function builtin shell"><span>cd</span></span><span>&nbsp;</span><span class="keyword operator tilde shell"><span>~</span></span><span>/.atom/evnd</span></span></span><span class="line"><span class="source shell"><span>$&nbsp;</span><span class="support function builtin shell"><span>echo</span></span><span>&nbsp;</span><span class="string quoted double shell"><span class="punctuation definition string begin shell"><span>&quot;</span></span><span>{}</span><span class="punctuation definition string end shell"><span>&quot;</span></span></span><span>&nbsp;</span><span class="keyword operator redirect shell"><span>&gt;</span></span><span>&nbsp;index.json</span></span></span></pre>
+</li>
+<li>Initialize the folder as a git repo (and make an initial commit if you like)    <pre class="editor-colors lang-bash evnd-fenced-code-block fenced-code-block-bash" title="fenced-code-block-bash"><span class="line"><span class="source shell"><span>$&nbsp;</span><span class="support function builtin shell"><span>cd</span></span><span>&nbsp;path/to/your/folder</span></span></span><span class="line"><span class="source shell"><span>$&nbsp;git&nbsp;init</span></span></span><span class="line"><span class="source shell"><span>------&nbsp;Optional&nbsp;------</span></span></span><span class="line"><span class="source shell"><span>$&nbsp;git&nbsp;add&nbsp;</span><span class="support function builtin shell"><span>.</span></span></span></span><span class="line"><span class="source shell"><span>$&nbsp;git&nbsp;commit&nbsp;-m&nbsp;</span><span class="string quoted double shell"><span class="punctuation definition string begin shell"><span>&quot;</span></span><span>Initial&nbsp;commit</span><span class="punctuation definition string end shell"><span>&quot;</span></span></span></span></span></pre>
+</li>
+</ol>
+<p>&nbsp;&nbsp;&nbsp;</p>
+<h3 id="install"><a name="toc:install" href="#"></a>Install</h3>
+<ul>
+<li><strong>APM</strong>: <code>apm install ever-notedown</code></li>
+<li><strong>Preferences</strong>: Open Atom and go to <code>Preferences &gt; Packages</code>, search for <code>Ever Notedown</code>, and install it.  </li>
+</ul>
+<p>&nbsp;<br>&nbsp;</p>
+<h3 id="using-evnd"><a name="toc:using-evnd" href="#"></a>Using EVND</h3>
+<h4 id="first-time"><a name="toc:first-time" href="#"></a>First Time</h4>
+<p>If you haven&apos;t already set up the EVND local storage, it will try to create a folder at <code>~/.atom/evnd/</code> for you... or so I think. </p>
+<blockquote>
+<p style=" margin-top: 0px; "><strong>Enabling spell-check:</strong><br>By default, the Atom <strong><code>spell-check</code></strong> core package activates only for these grammars: <code>source.asciidoc</code>, <code>source.gfm</code>, <code>text.git-commit</code>, <code>text.plain</code>, <code>text.plain.null-grammar</code>. To enable spellcheck for custom EVND grammars, go to Atom -&gt; Preferences -&gt; Packages -&gt; spell-check, and set <em><code>Grammars</code></em> to:   </p>
+<blockquote style=" margin-bottom: 0px; ">
+<p>[source.asciidoc, source.gfm, text.git-commit, text.plain, text.plain.null-grammar, source.litcoffee, text.markdown.evnd.mathjax.source.litcoffee.inline.html, text.markdown.evnd.mathjax.source.gfm.inline.html, text.markdown.evnd.source.gfm.inline.html]</p>
+</blockquote>
+</blockquote>
+<h4 id="activating-evnd"><a name="toc:activating-evnd" href="#"></a>Activating EVND</h4>
+<p>To save Atom start up time, EVND will only be automatically loaded partially when you open Atom, so there might be times when you see that elements such as <code>[TOC]</code> and mathjax equations are not rendered in preview. There are many ways to fully activate EVND, e.g.: toggling the EVND panel, opening up the drop-down EVND note list, etc. </p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AERzpsK7uF1EhIaMHEvwfAktAEg5xowOCwg"><strong>Demo</strong></a></p>
+</blockquote>
+<h4 id="atom-ui-theme-compatibility"><a name="toc:atom-ui-theme-compatibility" href="#"></a>Atom UI Theme compatibility</h4>
+<p>For now I know EVND can look kind of awkward with the One Dark/Light UI theme. Atom Dark/Light UI, Seti UI, Unity UI and Yosemite UI should be fine.</p>
+<h4 id="shortcut-keys-general-evnd-functions-"><a name="toc:shortcut-keys-general-evnd-functions-" href="#"></a>Shortcut Keys (General EVND Functions)</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Keyboard Shortcuts</th>
+<th style="text-align:center">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><kbd>shift</kbd><kbd>cmd</kbd><kbd>M</kbd></td>
+<td style="text-align:center">Toggle Preview</td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>shift</kbd><kbd>cmd</kbd><kbd>E</kbd></td>
+<td style="text-align:center">To Evernote</td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>alt</kbd><kbd>cmd</kbd><kbd>n</kbd></td>
+<td style="text-align:center">Toggle Note List</td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>f5</kbd></td>
+<td style="text-align:center">Refresh (preview)</td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>cmd</kbd><kbd>+</kbd>, <kbd>cmd</kbd><kbd>=</kbd></td>
+<td style="text-align:center">Zoom-in (preview)</td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>cmd</kbd><kbd>-</kbd>, <kbd>cmd</kbd><kbd>_</kbd></td>
+<td style="text-align:center">Zoom-out (preview)</td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>cmd</kbd><kbd>0</kbd></td>
+<td style="text-align:center">Reset zoom (preview)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; ">[link to how to customize your own keyboard shortcuts in Atom]</p>
+</blockquote>
+<p>&nbsp;<br>&nbsp;   </p>
+<h2 id="features"><a name="toc:features" href="#"></a>Features</h2>
+<h3 id="communicating-with-evernote"><a name="toc:communicating-with-evernote" href="#"></a>Communicating with Evernote</h3>
+<h4 id="m2-way-syncing-i-class-fa-fa-refresh-i-"><a name="toc:m2-way-syncing-i-class-fa-fa-refresh-i-" href="#"></a>2-way syncing <i class="fa fa-refresh"></i></h4>
+<ul>
+<li>Notes created in EVND: <ul>
+<li><strong>EVND-&gt;Evernote</strong>: Works pretty well. You can push changes to Evernote any time you want.</li>
+<li><em>Evernote-&gt;EVND</em>: You can make changes in Evernote and then load the changes back to EVND... sort of<sup><a href="#fn:fn html2markdown" id="fnref:fn html2markdown" name="fnref:fn html2markdown" class="footnote">5</a></sup>.</li>
+</ul>
+</li>
+<li>Import notes from Evernote<ul>
+<li>with notelink or query string <a href="https://www.evernote.com/l/AESxb3MfMWlL_Iqhv7kx7PSfFuUKjIzhU2o"><strong>[see demo]</strong></a>. EVND will (attempt to) convert the notes into Markdown<sup><a href="#fn:fn html2markdown" id="fnref:fn html2markdown" name="fnref:fn html2markdown" class="footnote">5</a></sup>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="images-and-attachments-i-class-icon-icon-file-media-i-"><a name="toc:images-and-attachments-i-class-icon-icon-file-media-i-" href="#"></a>Images and Attachments <i class="icon icon-file-media"></i></h4>
+<ul>
+<li>Insert images with pasting or drag-and-drop</li>
+<li>Insert attachments with syntax <code>!{alt text}[path/to/file &quot;Optional Text&quot;]</code> or drag-and-drop</li>
+<li>Special attachments (PDFs, audios) will display properly in Evernote.</li>
+<li>2-way syncing! New attachments added and changes made in Evernote will be detected and loaded back to the EVND storage (e.g. annotated images in Evernote, etc.)</li>
+</ul>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><code>*</code> <em>Not sure how well it works with large files...</em>   </p>
+</blockquote>
+<p>&nbsp;</p>
+<h3 id="note-management"><a name="toc:note-management" href="#"></a>Note Management</h3>
+<p>You can use 2 versions of note browser:</p>
+<ol>
+<li>A searchable drop-down list of notes. You can change the default sorting method in the EVND package settings.<ul>
+<li>Fuzzy search with any text in title, tags, notebook, file path, etc. (anything visible in the drop-down list).</li>
+<li>Search with keywords (e.g.&quot;notebook:inbox&quot;)</li>
+</ul>
+</li>
+<li>A browser in side panel organized by notebooks with several sorting buttons. </li>
+</ol>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AETukpDn_w1DYKIQu0GVqc29jKS5ADeCR-A"><strong>Demo here</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h3 id="themes-for-rendering"><a name="toc:themes-for-rendering" href="#"></a>Themes for Rendering</h3>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AERp-6EbVWJDl5ZHzWwhll_AxrLpEFd13N4"><strong>Demo here</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h3 id="extended-gfm-syntax"><a name="toc:extended-gfm-syntax" href="#"></a>Extended GFM Syntax</h3>
+<h4 id="latex-mathematical-expressions-with-mathjax"><a name="toc:latex-mathematical-expressions-with-mathjax" href="#"></a>LaTeX Mathematical Expressions with MathJax</h4>
+<h5 id="mathjax-basic-usage"><a name="toc:mathjax-basic-usage" href="#"></a>MathJax: Basic Usage</h5>
+<ul>
+<li>Inline math equations (<code>$...$</code>): <span class="math" tooltip="a^2 + b^2 = c^2"><span class="MathJax_SVG" id="MathJax-Element-3-Frame" role="math" style="font-size: 100%; display: inline-block;" title="MathJax_SVG"><img src="/Users/sho/Google_Drive/evnd/20170301/img/svgdb47b9bfbee65e04c227d3dd7795fdc0.svg" title="svgdb47b9bfbee65e04c227d3dd7795fdc0.svg" style="vertical-align: -0.354ex; margin: 1px 0ex; width: 12.377ex; height: 2.24ex;" alt="a^2 + b^2 = c^2" tooltip="a^2 + b^2 = c^2"></span><script type="math/tex" id="MathJax-Element-3">a^2 + b^2 = c^2</script></span></li>
+<li>Display mode math equations (<code>$$...$$</code>):
+<span class="math"><div class="MathJax_SVG_Display" style="text-align: center;" tooltip=" 
+\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} &amp; = 0
+\end{align}
+" title="MathJax_SVG_Display"><span class="MathJax_SVG" id="MathJax-Element-4-Frame" role="math" style="font-size: 100%; display: inline-block;" title="MathJax_SVG"><img src="/Users/sho/Google_Drive/evnd/20170301/img/svgf4c481311701384a48eff42579b32370.svg" title="svgf4c481311701384a48eff42579b32370.svg" style="vertical-align: -7.898ex; margin: 1px 0ex; width: 24.637ex; height: 16.739ex;" alt=" 
+\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} &amp; = 0
+\end{align}
+" tooltip=" 
+\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} &amp; = 0
+\end{align}
+"></span></div><script type="math/tex; mode=display" id="MathJax-Element-4"> 
+\begin{align}
+  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+  \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
+  \nabla \cdot \vec{\mathbf{B}} & = 0
+\end{align}
+</script></span></li>
+</ul>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><strong>Notes:</strong> If mathjax is enabled in settings, you will need to use backslash to escape regular dollar signs: $</p>
+</blockquote>
+<p>&nbsp;</p>
+<h5 id="mathjax-custom-macros"><a name="toc:mathjax-custom-macros" href="#"></a>MathJax: Custom Macros</h5>
+<p>You can define your own macros or use one of the pre-defined macro files. </p>
+<p>TODO: Screenshot 1<br>TODO: Screenshot 2   </p>
+<p>To choose one of the pre-defined macro files, go to EVND package settings (<code>Atom-&gt;Preferences-&gt;Packages-&gt;Ever Notedown</code>), find the config option for &quot;Mathjax Custom Macros&quot;(see screenshot) and select from drop down list.</p>
+<p><img src="/Users/sho/.atom/packages/ever-notedown/docs/images/clipboard_20150430_211015.png" alt="Alt text" title="Optional title" id="img-src-clipboard-20150430-211015-png"><br>&nbsp;</p>
+<p>Fo view current macros or edit custom macros, from the menu bar, select <code>Packages -&gt; Ever Notedown -&gt; Settings -&gt; MathJax</code>. You can use the pre-defined macros for reference.</p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AES5wqBjghpBh79jgzEGhqByqKD1uw64B5U"><strong>Demo for MathJax &amp; Macros</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="table-of-contents"><a name="toc:table-of-contents" href="#"></a>Table of Contents</h4>
+<p>To define a table of contents, write <code>[toc]</code> or <code>[TOC]</code> in a separate paragraph.</p>
+<p>&nbsp;</p>
+<h4 id="footnotes"><a name="toc:footnotes" href="#"></a>Footnotes</h4>
+<p>To insert a footnote, use <code>[^footnote label text]</code>, like this<sup><a href="#fn:another sample footnote" id="fnref:another sample footnote" name="fnref:another sample footnote" class="footnote">6</a></sup>, and then define the footnote by writing a separate paragraph anywhere in the document, starting the paragraph with <code>[^footnote label text]:</code>.</p>
+
+<p>&nbsp;</p>
+<h4 id="attachments-i-class-fa-fa-paperclip-i-"><a name="toc:attachments-i-class-fa-fa-paperclip-i-" href="#"></a>Attachments <i class="fa fa-paperclip"></i></h4>
+<p>Insert attachments with the syntax <code>!{alt text}(path/to/your/attachment/file &quot;Optional title&quot;)</code>.</p>
+<blockquote>
+<ul style=" margin-top: 0px;  margin-bottom: 0px; ">
+<li><a href="https://www.evernote.com/l/AESHF44qHkRANq1H4U4W9GLvMMdI7ojT2O4"><strong>Demo for PDF attachments</strong></a></li>
+<li><a href="https://www.evernote.com/l/AEQGmNV9LGNHopmiaylXNKxpKwnUhEpuujg"><strong>Demo for Audio Attachments</strong></a></li>
+</ul>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="images"><a name="toc:images" href="#"></a>Images</h4>
+<p>Use the usual Markdown syntax for images: <code>![Alt Text](path/to/the/image &quot;Optional Title&quot;)</code></p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AESqRZ75YFRDrojYCY5l0XNhp6EATx1Vy2c"><strong>Demo for 2-way syncing images</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="icon-fonts-and-emojis"><a name="toc:icon-fonts-and-emojis" href="#"></a>Icon Fonts and Emojis</h4>
+<p>You can insert emojis like this - (<code>:tada:</code>) <img class="emoji" title=":tada:" alt="tada" src="/Users/sho/.atom/packages/ever-notedown/node_modules/emoji-images/pngs/tada.png" height="20">   </p>
+<p>Octicons and FontAwesome are also available, use <code>&lt;i class=&quot;icon icon-home&quot;&gt;&lt;/i&gt;</code> and <code>&lt;i class=&quot;fa fa-anchor&quot;&gt;&lt;/i&gt;</code> and EVND will convert them to PNG images when sending to Evernote:</p>
+<ul>
+<li><i class="icon icon-home"></i>   </li>
+<li><i class="fa fa-anchor"></i></li>
+<li><i class="fa fa-university"></i></li>
+</ul>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><strong>TODO</strong>: More on this... Image size, color, quality, how to customize &amp; extend, etc.</p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="fenced-code-blocks"><a name="toc:fenced-code-blocks" href="#"></a>Fenced code blocks</h4>
+<p>You can define fenced code block in the usual GFM way. Several syntax highlighting themes are available in the package settings.</p>
+<pre class="editor-colors lang-python evnd-fenced-code-block fenced-code-block-python" title="fenced-code-block-python"><span class="line"><span class="source python"><span class="keyword control import python"><span>import</span></span><span>&nbsp;</span><span>numpy</span><span>&nbsp;</span><span class="keyword other python"><span>as</span></span><span>&nbsp;</span><span>np</span></span></span><span class="line"><span class="source python"><span class="keyword control import python"><span>import</span></span><span>&nbsp;</span><span>matplotlib</span><span>.</span><span>pyplot</span><span>&nbsp;</span><span class="keyword other python"><span>as</span></span><span>&nbsp;</span><span>plt</span></span></span><span class="line"><span class="source python"><span>&nbsp;</span></span></span><span class="line"><span class="source python"><span class="keyword other python"><span>print</span></span><span>&nbsp;</span><span class="string quoted double single-line python"><span class="punctuation definition string begin python"><span>&quot;</span></span><span>Hello&nbsp;World!</span><span class="punctuation definition string end python"><span>&quot;</span></span></span></span></span></pre>
+<p><img src="/Users/sho/.atom/packages/ever-notedown/docs/images/clipboard_20150501_172409.png" alt="Alt text" title="Optional title" id="img-src-clipboard-20150501-172409-png"><br>&nbsp;</p>
+<p>You can also customize your own syntax theme:</p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><strong>Menu</strong>:<br>Packages -&gt; Ever Notedown -&gt; Settings -&gt; Syntax Themes (for fenced code blocks) -&gt; Edit Syntax Theme: custom1.css </p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="tables"><a name="toc:tables" href="#"></a>Tables</h4>
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 1 is</td>
+<td style="text-align:center">left-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1</td>
+</tr>
+<tr>
+<td>See how</td>
+<td style="text-align:center">the dollar signs</td>
+<td style="text-align:right"><u>are</u></td>
+</tr>
+<tr>
+<td>escaped?</td>
+<td style="text-align:center"><strong>bold</strong> <em>italic</em></td>
+<td style="text-align:right">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h4 id="checkboxes"><a name="toc:checkboxes" href="#"></a>Checkboxes</h4>
+<p>You can configure EVND to render <code>[ ]</code>, <code>[x]</code> as checkboxes everywhere in the file beside is the general GFM task list <code>- [ ]</code>. Those checkboxes will be funcitoning in Evernote, and you can load changes back into EVND.</p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AERKM1qy1s5Lp6jyDcHN2pBkRCk4AIst-es"><strong>Demo here</strong></a></p>
+</blockquote>
+<p>&nbsp;   </p>
+<p>&nbsp;</p>
+<h3 id="editing-markdown-files-in-atom-with-evnd"><a name="toc:editing-markdown-files-in-atom-with-evnd" href="#"></a>Editing Markdown Files in Atom with EVND</h3>
+<h4 id="quick-notes-from-selection-code-snippet-"><a name="toc:quick-notes-from-selection-code-snippet-" href="#"></a>Quick notes from selection (code snippet)</h4>
+<p>Quickly clip part of your code as a new note. </p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AERKM1qy1s5Lp6jyDcHN2pBkRCk4AIst-es"><strong>Demo</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="keyboard-shortcuts-for-text-formating"><a name="toc:keyboard-shortcuts-for-text-formating" href="#"></a>Keyboard Shortcuts for Text Formating</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Keyboard Shortcuts</th>
+<th style="text-align:center">Format</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><kbd>cmd</kbd><kbd>b</kbd></td>
+<td style="text-align:center"><strong>bold</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>cmd</kbd><kbd>i</kbd></td>
+<td style="text-align:center"><em>italic</em></td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>ctrl</kbd><kbd>~</kbd> (ctrl + shift + `)</td>
+<td style="text-align:center"><del>strikethrough</del></td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>shift</kbd><kbd>cmd</kbd><kbd>U</kbd></td>
+<td style="text-align:center"><u>underline</u></td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>shift</kbd><kbd>cmd</kbd><kbd>H</kbd></td>
+<td style="text-align:center"><mark>highlight</mark></td>
+</tr>
+<tr>
+<td style="text-align:left"><kbd>cmd</kbd><kbd>&gt;</kbd> (shift + cmd + .) or <br> <kbd>shift</kbd><kbd>cmd</kbd><kbd>K</kbd></td>
+<td style="text-align:center">blockquote</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AETNS1RKOoJMuKAg9uzLQsNqXXw4Z_zeAdw"><strong>See demo</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="syncronized-scrolling"><a name="toc:syncronized-scrolling" href="#"></a>Syncronized Scrolling</h4>
+<p>Limited but basically working...   </p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AEQHcoHTT-hHgqf3Ryt1JmVcfX6gstuNoSg"><strong>Demo</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="auto-tab-switching"><a name="toc:auto-tab-switching" href="#"></a>Auto tab switching</h4>
+<p>Only works after EVND is &quot;fully&quot; activated. Suppose you have multiple markdown files and their previews opened in split mode with markdown files on one side and previews on the other, when you switch tabs between markdown files, the corresponding previews will automatically switch accordingly. (See demo)</p>
+<blockquote>
+<p style=" margin-top: 0px;  margin-bottom: 0px; "><a href="https://www.evernote.com/l/AEQHcoHTT-hHgqf3Ryt1JmVcfX6gstuNoSg"><strong>Demo</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<h4 id="enhanced-syntax-highlighting-in-editors"><a name="toc:enhanced-syntax-highlighting-in-editors" href="#"></a>Enhanced Syntax Highlighting in Editors</h4>
+<ul>
+<li>inline HTML</li>
+<li>EVND syntax: attachments</li>
+<li>EVND syntax: mathjax equations</li>
+</ul>
+<p><del>(Screenshots here)</del>  </p>
+<h5 id="inline-html-highlighting"><a name="toc:inline-html-highlighting" href="#"></a>Inline HTML Highlighting</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Default GFM in Atom</th>
+<th style="text-align:right">Extended GFM with EVND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><img src="/Users/sho/.atom/packages/ever-notedown/docs/images/clipboard_20150509_192314.png" alt="Alt text" title="Optional title" id="img-src-clipboard-20150509-192314-png"></td>
+<td style="text-align:right"><img src="/Users/sho/.atom/packages/ever-notedown/docs/images/clipboard_20150509_192555.png" alt="Alt text" title="Optional title"></td>
+</tr>
+<tr>
+<td style="text-align:left"><img src="/Users/sho/.atom/packages/ever-notedown/docs/images/clipboard_20150509_194336.png" alt="Alt text" title="Optional title" id="img-src-clipboard-20150509-194336-png"></td>
+<td style="text-align:right"><img src="/Users/sho/.atom/packages/ever-notedown/docs/images/clipboard_20150509_192507.png" alt="Alt text" title="Optional title"></td>
+</tr>
+</tbody>
+</table>
+<h5 id="attachment-definition"><a name="toc:attachment-definition" href="#"></a>Attachment Definition</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Default GFM in Atom</th>
+<th style="text-align:right">Extended GFM with EVND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">TODO</td>
+<td style="text-align:right">TODO</td>
+</tr>
+</tbody>
+</table>
+<h5 id="mathjax-highlighting"><a name="toc:mathjax-highlighting" href="#"></a>MathJax Highlighting</h5>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Default GFM in Atom</th>
+<th style="text-align:right">Extended GFM with EVND</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><img src="/Users/sho/.atom/packages/ever-notedown/docs/images/clipboard_20150509_193731.png" alt="Alt text" title="Optional title" id="img-src-clipboard-20150509-193731-png"></td>
+<td style="text-align:right"><img src="/Users/sho/.atom/packages/ever-notedown/docs/images/clipboard_20150509_193136.png" alt="Alt text" title="Optional title"></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;<br>&nbsp;  </p>
+<h2 id="troubleshooting"><a name="toc:troubleshooting" href="#"></a>Troubleshooting</h2>
+<h3 id="frequrently-asked-questions"><a name="toc:frequrently-asked-questions" href="#"></a>Frequrently Asked Questions</h3>
+<ul>
+<li>Question 1</li>
+<li>Question 2</li>
+</ul>
+<h3 id="evernote-bugs-i-class-icon-icon-bug-i-"><a name="toc:evernote-bugs-i-class-icon-icon-bug-i-" href="#"></a>Evernote Bugs <i class="icon icon-bug"></i></h3>
+<h4 id="cannot-create-notebook-with-applescript-ticket-1014193"><a name="toc:cannot-create-notebook-with-applescript-ticket-1014193" href="#"></a>Cannot create notebook with AppleScript - Ticket# 1014193</h4>
+<p>Currently users cannot create new notebooks from EVND due to a bug in Evernote Mac Client&apos;s AppleScript functionalities. Read more in <strong>Notes for Developers</strong> (Packages -&gt; Ever Notedown -&gt; Help -&gt; Notes for Developers).  </p>
+<h4 id="random-upload-limit-error-ticket-953466"><a name="toc:random-upload-limit-error-ticket-953466" href="#"></a>Random Upload Limit Error - Ticket# 953466</h4>
+<p>Attempting to update the <code>HTML content</code> of a note with basically the same content with get an error message saying</p>
+<pre class="editor-colors lang-text evnd-fenced-code-block fenced-code-block-text" title="fenced-code-block-text"><span class="line"><span class="text plain"><span class="meta paragraph text"><span>error&nbsp;&quot;Evernote&nbsp;got&nbsp;an&nbsp;error:&nbsp;Operation&nbsp;would&nbsp;exceed&nbsp;monthly&nbsp;upload&nbsp;allowance.</span></span></span></span></pre><p>Barring some rare exceptions, users should not see this in EVND...  </p>
+<p>&nbsp;<br>&nbsp;</p>
+<h2 id="tips"><a name="toc:tips" href="#"></a>Tips</h2>
+<ul>
+<li>Disable <code>live update</code> for better performance (preview will refresh upon save)</li>
+<li>Consider disable auto-complete for better performance</li>
+<li>Use key-bindings and snippets for faster input</li>
+</ul>
+<p>&nbsp;</p>
+<h2 id="credits"><a name="toc:credits" href="#"></a>Credits</h2>
+<h3 id="inspired-by"><a name="toc:inspired-by" href="#"></a>Inspired by</h3>
+<ul>
+<li><a href="https://github.com/bordaigorl/sublime-evernote">Evernote Plugin for Sublime Text</a></li>
+<li><a href="https://github.com/uranusjr/macdown">MacDown</a></li>
+<li>Mou Editor</li>
+<li>Atom Markdown Preview</li>
+<li>Markdown Preview Plus</li>
+<li>StackEdit</li>
+<li>Marxico</li>
+</ul>
+<p>&nbsp;</p>
+<h2 id="what-else-"><a name="toc:what-else-" href="#"></a>What Else?</h2>
+<ul>
+<li>Notes for developers?<sup><a href="#fn:developers" id="fnref:developers" name="fnref:developers" class="footnote">7</a></sup></li>
+</ul>
+
+
+
+
+
+
+<div class="footnotes" title="footnotes"><hr><ol><li id="fn:sample footnote"><strong>Sample footnote</strong> - No big deal, just a random footnote.&nbsp;<a class="reversefootnote" title="Return to article" href="#fnref:sample footnote" name="fn:sample footnote">&#x21A9;</a></li><li id="fn:footnote status"><strong>Status</strong> - I initially wrote this for my own use, and over the course of about a year, it has become increasingly...complicated. And I&apos;m guessing that other people might find some use with this, so I thought I&apos;d share. I&apos;ve been using EVND to write my notes, but I don&apos;t have the time or means to do more serious tests, hence I can only say the status is <em><strong>&quot;Works For Me&quot;</strong></em>.&nbsp;<a class="reversefootnote" title="Return to article" href="#fnref:footnote status" name="fn:footnote status">&#x21A9;</a></li><li id="fn:wfm"><strong>WFM (Works for me)</strong> - Works for me.&nbsp;<a class="reversefootnote" title="Return to article" href="#fnref:wfm" name="fn:wfm">&#x21A9;</a></li><li id="fn:appstore client problem"><strong>Caveat</strong> - Apparently the applescript support is glitchy with the app store version of EN client. Something has to do with <a href="https://github.com/jamietr1/evernote-backup/blob/master/README.md">&quot;the way the app is sandboxed&quot;</a>. See more discussion <a href="https://github.com/cs150bf/ever-notedown/issues/5#issuecomment-118221171">here</a>.&nbsp;<a class="reversefootnote" title="Return to article" href="#fnref:appstore client problem" name="fn:appstore client problem">&#x21A9;</a></li><li id="fn:fn html2markdown"><strong>HTML2Markdown</strong> -  The result might vary since the function is still in a crude state. The resulting Markdown text might contain some un-converted HTML. Changes in meta info (notebook, tags) and images &amp; attachments should be loaded just fine.&nbsp;<a class="reversefootnote" title="Return to article" href="#fnref:fn html2markdown" name="fn:fn html2markdown">&#x21A9;</a></li><li id="fn:another sample footnote">Footnote definition!&nbsp;<a class="reversefootnote" title="Return to article" href="#fnref:another sample footnote" name="fn:another sample footnote">&#x21A9;</a></li><li id="fn:developers">Packages -&gt; Ever Notedown -&gt; Helper -&gt; Notes For Developers&nbsp;<a class="reversefootnote" title="Return to article" href="#fnref:developers" name="fn:developers">&#x21A9;</a></li></ol></div><div style="display:none" title="evnd-note-id" id="evnd-note-id"><p>[Note ID: fc4a8e276f8427aa52db847d0594fb29]</p></div></div>
