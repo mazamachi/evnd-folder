@@ -14,14 +14,14 @@
 </ul>
 </div>
 <h1 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #ddd; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 30px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:evnd-"/>EVND テスト</h1>
-<p style="margin: 15px 10px 15px 0; margin-top: 0;"><img style="max-width: 100%;" alt="hoge" title="clipboard_20170301_155941.png"/>河合孝夫.png</p>
+<p style="margin: 15px 10px 15px 0; margin-top: 0;"><en-media style="max-width: 100%;" alt="hoge" hash="fdb30fe83fbb06dbbb4b6db20e0760f1" type="image/png" title="clipboard_20170301_155941.png"/>河合孝夫.png</p>
 <h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m-"/>数式</h2>
-<p style="margin: 15px 10px 15px 0; margin-top: 0;"><span><span style="font-size: 100%; display: inline-block;" title="MathJax_SVG"><img style="height: 3.536ex; margin: 1px 0ex; max-width: 100%; vertical-align: -1.061ex; width: 12.259ex;" alt="x = 1+2\frac{dy}{dx}" title="svg047dabd12ae35845ac973ba004c565f9.png"/></span><span style="display:none" title="hidden_script_mathjax"><code>&lt;script type=&quot;math/tex&quot; id=&quot;MathJax-Element-13&quot;&gt;x = 1+2\frac{dy}{dx}&lt;/script&gt;</code><span style="display: none;" title="raw_mathjax_script">$x = 1+2\frac{dy}{dx}$</span></span></span></p>
-<span style="display:none;"><span style="font-size: 100%; display: inline-block;" title="MathJax_SVG"><img style="height: 2.004ex; margin: 1px 0ex; max-width: 100%; vertical-align: -0.236ex; width: 3.654ex;" alt="$x$" title="svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png"/></span><span style="display:none" title="hidden_script_mathjax"><code>&lt;script type=&quot;math/tex&quot; id=&quot;MathJax-Element-14&quot;&gt;$x$&lt;/script&gt;</code><span style="display: none;" title="raw_mathjax_script">$$x$$</span></span></span>
+<p style="margin: 15px 10px 15px 0; margin-top: 0;"><span><span style="font-size: 100%; display: inline-block;" title="MathJax_SVG"><en-media style="height: 3.536ex; margin: 1px 0ex; max-width: 100%; vertical-align: -1.061ex; width: 12.259ex;" alt="x = 1+2\frac{dy}{dx}" hash="acd49e4aac83817543a099d9bc06b302" type="image/png" title="svg047dabd12ae35845ac973ba004c565f9.png"/></span><span style="display:none" title="hidden_script_mathjax"><code>&lt;script type=&quot;math/tex&quot; id=&quot;MathJax-Element-17&quot;&gt;x = 1+2\frac{dy}{dx}&lt;/script&gt;</code><span style="display: none;" title="raw_mathjax_script">$x = 1+2\frac{dy}{dx}$</span></span></span></p>
+<span style="display:none;"><span style="font-size: 100%; display: inline-block;" title="MathJax_SVG"><en-media style="height: 2.004ex; margin: 1px 0ex; max-width: 100%; vertical-align: -0.236ex; width: 3.654ex;" alt="$x$" hash="200d8490cc7f80cf5062dd96e77b3966" type="image/png" title="svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png"/></span><span style="display:none" title="hidden_script_mathjax"><code>&lt;script type=&quot;math/tex&quot; id=&quot;MathJax-Element-18&quot;&gt;$x$&lt;/script&gt;</code><span style="display: none;" title="raw_mathjax_script">$$x$$</span></span></span>
 <div style="display: none; margin-bottom: 0;" title="evnd-note-id">
 <p style="margin: 15px 10px 15px 0;">[Note ID: 69bea99a3df6c5269f23064cb7c980b5]</p>
 <div style="display: none;" title="evnd-time-stamp">
-<p>2017-03-01 16:17:24</p>
+<p>2017-03-01 16:21:32</p>
 </div>
 </div>
 </div>

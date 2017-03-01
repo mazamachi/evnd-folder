@@ -11,4 +11,3 @@ Notebook:
 
 ## 数式
 $x = 1+2\frac{dy}{dx}$
-
