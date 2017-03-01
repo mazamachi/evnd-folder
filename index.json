@@ -295,5 +295,133 @@
             "mathjax": true
         },
         "contentMD5": "913861fa5be7b856f0f01fc838443794"
+    },
+    "[Note ID: 414d0bf6839b3c6df4293bd3ed679866]": {
+        "creationTime": "2017-03-01 17:07:15",
+        "enCreationDate": "20170301T175415",
+        "lastSyncDate": null,
+        "enModificationDate": "20170301T175424",
+        "modificationTime": "2017-03-01 17:54:22",
+        "metaDate": null,
+        "dir": "20170301/",
+        "path": "/Users/sho/Google_Drive/evnd/20170301",
+        "title": "世界で闘うプログラミング力を鍛える150問",
+        "noteLink": null,
+        "tags": [
+            "evnd",
+            "programming",
+            "career"
+        ],
+        "notebook": {
+            "name": "mazamachi のノートブック",
+            "type": "synchronized"
+        },
+        "enExportedFiles": [],
+        "format": "Markdown",
+        "fnStem": "世界で闘うプログラミング力を鍛える150問",
+        "enml": null,
+        "attachments": {
+            "svgebe49bf9f76bc6259c81f7a2cb090ca4.png": {
+                "title": "svgebe49bf9f76bc6259c81f7a2cb090ca4.png",
+                "path": "/Users/sho/Google_Drive/evnd/20170301/img/svgebe49bf9f76bc6259c81f7a2cb090ca4.png",
+                "info": {
+                    "hash": "63afa282cc083637fe42bcd529fbce01",
+                    "filename": "svgebe49bf9f76bc6259c81f7a2cb090ca4.png",
+                    "mime": "image/png",
+                    "size": 10970,
+                    "sourceURL": "missing value",
+                    "longitude": "missing value",
+                    "latitude": "missing value",
+                    "altitude": ""
+                },
+                "active": true,
+                "md5": "63afa282cc083637fe42bcd529fbce01"
+            },
+            "svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png": {
+                "title": "svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png",
+                "path": "/Users/sho/Google_Drive/evnd/20170301/img/svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png",
+                "info": {
+                    "hash": "200d8490cc7f80cf5062dd96e77b3966",
+                    "filename": "svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png",
+                    "mime": "image/png",
+                    "size": 5577,
+                    "sourceURL": "missing value",
+                    "longitude": "missing value",
+                    "latitude": "missing value",
+                    "altitude": ""
+                },
+                "active": true,
+                "md5": "200d8490cc7f80cf5062dd96e77b3966"
+            }
+        },
+        "addAttachments": false,
+        "text": null,
+        "html": null,
+        "rawHTML": null,
+        "css": null,
+        "syncdContent": null,
+        "id": "[Note ID: 414d0bf6839b3c6df4293bd3ed679866]",
+        "header": "<head><title>世界で闘うプログラミング力を鍛える150問</title><link rel=\"stylesheet\" type=\"text/css\" href=\"世界で闘うプログラミング力を鍛える150問_style.css\"></head>",
+        "queryString": "[Note ID: 414d0bf6839b3c6df4293bd3ed679866] created:20170301T175413 -created:20170301T175417",
+        "renderOptions": {
+            "mathjax": true
+        },
+        "contentMD5": "1562d723fe89b1d3d2151160aecbb26f",
+        "filePath": "/Users/sho/Google_Drive/evnd/20170301/世界で闘うプログラミング力を鍛える150問.markdown",
+        "moved": false
+    },
+    "[Note ID: 0635914bd1dd90e0897c5acddf8fa1d5]": {
+        "creationTime": "2017-03-01 17:11:07",
+        "enCreationDate": "20170301T171109",
+        "lastSyncDate": null,
+        "enModificationDate": null,
+        "modificationTime": "2017-03-01 17:48:26",
+        "metaDate": null,
+        "dir": "20170301",
+        "path": "/Users/sho/Google_Drive/evnd/20170301",
+        "title": "世界で闘うプログラミング力を鍛える150問",
+        "noteLink": null,
+        "tags": [
+            "evnd",
+            "programming career"
+        ],
+        "notebook": {
+            "name": null
+        },
+        "enExportedFiles": [],
+        "format": "Markdown",
+        "fnStem": "世界で闘うプログラミング力を鍛える150問",
+        "enml": null,
+        "attachments": {
+            "svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png": {
+                "title": "svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png",
+                "path": "/Users/sho/Google_Drive/evnd/20170301/img/svgdaa23cc5e3d9d0e3e69a01d9a3a2b58a.png",
+                "info": null,
+                "active": true,
+                "md5": "200d8490cc7f80cf5062dd96e77b3966"
+            },
+            "svgebe49bf9f76bc6259c81f7a2cb090ca4.png": {
+                "title": "svgebe49bf9f76bc6259c81f7a2cb090ca4.png",
+                "path": "/Users/sho/Google_Drive/evnd/20170301/img/svgebe49bf9f76bc6259c81f7a2cb090ca4.png",
+                "info": null,
+                "active": true,
+                "md5": "63afa282cc083637fe42bcd529fbce01"
+            }
+        },
+        "addAttachments": true,
+        "text": null,
+        "html": null,
+        "rawHTML": null,
+        "css": null,
+        "syncdContent": null,
+        "id": "[Note ID: 0635914bd1dd90e0897c5acddf8fa1d5]",
+        "header": "<head><title>世界で闘うプログラミング力を鍛える150問</title><link rel=\"stylesheet\" type=\"text/css\" href=\"/Users/sho/Google_Drive/evnd/20170301/世界で闘うプログラミング力を鍛える150問_style.css\"></head>",
+        "queryString": " created:20170301T171107 -created:20170301T171111 notebook:\"null\"",
+        "renderOptions": {
+            "mathjax": true
+        },
+        "contentMD5": "4d7901c4a73ed144b3116de5e390fb95",
+        "filePath": "/Users/sho/Google_Drive/evnd/20170301/世界で闘うプログラミング力を鍛える150問.markdown",
+        "moved": false
     }
 }
