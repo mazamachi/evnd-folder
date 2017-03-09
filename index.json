@@ -503,5 +503,79 @@
             "mathjax": true
         },
         "contentMD5": "a2619ac1d6ebf7b656b41050b6335e9d"
+    },
+    "[Note ID: 5dfffefad5482ecde501576471afa442]": {
+        "creationTime": "2017-03-09 16:23:11",
+        "enCreationDate": null,
+        "lastSyncDate": null,
+        "enModificationDate": null,
+        "modificationTime": "2017-03-09 16:23:11",
+        "metaDate": null,
+        "dir": "20170309/",
+        "path": "/Users/sho/Google_Drive/evnd/20170309/",
+        "title": "Title:アゾソンUbi",
+        "noteLink": null,
+        "tags": [
+            "EVND"
+        ],
+        "notebook": {
+            "name": null
+        },
+        "enExportedFiles": [],
+        "format": "Markdown",
+        "fnStem": "title_アゾソンubi",
+        "enml": null,
+        "attachments": {},
+        "addAttachments": false,
+        "text": null,
+        "html": null,
+        "rawHTML": null,
+        "css": null,
+        "syncdContent": null,
+        "id": "[Note ID: 5dfffefad5482ecde501576471afa442]",
+        "header": "<head><title>Title:アゾソンUbi</title><link rel=\"stylesheet\" type=\"text/css\" href=\"title_アゾソンubi_style.css\"></head>",
+        "queryString": "[Note ID: 5dfffefad5482ecde501576471afa442]",
+        "renderOptions": {
+            "mathjax": true
+        },
+        "contentMD5": "329a6cd313c22f1eca23714efbf3e43c"
+    },
+    "[Note ID: 3c8b2e8b660694256189aeffaeaf1d8d]": {
+        "creationTime": "2017-03-09 16:27:16",
+        "enCreationDate": "20170309T162729",
+        "lastSyncDate": null,
+        "enModificationDate": "20170309T162731",
+        "modificationTime": "2017-03-09 16:27:30",
+        "metaDate": null,
+        "dir": "20170309",
+        "path": "/Users/sho/Google_Drive/evnd/20170309",
+        "title": "アゾソンUbi",
+        "noteLink": null,
+        "tags": [
+            "evnd",
+            "ubi"
+        ],
+        "notebook": {
+            "name": "mazamachi のノートブック",
+            "type": "synchronized"
+        },
+        "enExportedFiles": [],
+        "format": "Markdown",
+        "fnStem": "title_アゾソンubi",
+        "enml": null,
+        "attachments": {},
+        "addAttachments": false,
+        "text": null,
+        "html": null,
+        "rawHTML": null,
+        "css": null,
+        "syncdContent": null,
+        "id": "[Note ID: 3c8b2e8b660694256189aeffaeaf1d8d]",
+        "header": "<head><title>アゾソンUbi</title><link rel=\"stylesheet\" type=\"text/css\" href=\"/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi_style.css\"></head>",
+        "queryString": "[Note ID: 3c8b2e8b660694256189aeffaeaf1d8d] created:20170309T162727 -created:20170309T162731",
+        "renderOptions": {
+            "mathjax": true
+        },
+        "contentMD5": "6aa31ee710c1b791739b51fed5ac2e23"
     }
 }

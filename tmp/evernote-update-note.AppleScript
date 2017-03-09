@@ -5,17 +5,23 @@ on readFile(unixPath)
 	return newcontent
 end readFile
 
-set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170301/世界で闘うプログラミング力を鍛える150問.html")
+set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi.html")
 set infostr to ""
 tell application "Evernote"
-	set note1 to find note "evernote:///view/2147483647/s133/401be46e-5672-4f04-b52a-ff80b8207f79/401be46e-5672-4f04-b52a-ff80b8207f79/"
+	set pnotes to find notes " created:20170309T162727 -created:20170309T162731 notebook:\"mazamachi のノートブック\""
+	set count1 to count of pnotes
+	if count1 equals 1 then
+		set note1 to item 1 of pnotes
+	else
+		set note1 to missing value
+	end if
 	if note1 is not missing value then
-		if (notebook named "EVND" exists) then
-			move note1 to notebook "EVND"
+		if (notebook named "mazamachi のノートブック" exists) then
+			move note1 to notebook "mazamachi のノートブック"
 		else
 			set infostr to infostr & "(notebook does not exist)"
 		end if
-		set title of note1 to "世界で闘うプログラミング力を鍛える150問"
+		set title of note1 to "アゾソンUbi"
 		set HTML content of note1 to newcontent
 		set oldtags to tags of note1
 		set count2 to count of oldtags
@@ -28,16 +34,10 @@ tell application "Evernote"
 			set tag1 to tag "evnd"
 		end if
 		assign tag1 to note1
-		if (not (tag named "programming" exists)) then
-			set tag1 to make tag with properties {name: "programming"}
+		if (not (tag named "ubi" exists)) then
+			set tag1 to make tag with properties {name: "ubi"}
 		else
-			set tag1 to tag "programming"
-		end if
-		assign tag1 to note1
-		if (not (tag named "career" exists)) then
-			set tag1 to make tag with properties {name: "career"}
-		else
-			set tag1 to tag "career"
+			set tag1 to tag "ubi"
 		end if
 		assign tag1 to note1
 		set date1 to modification date of note1
