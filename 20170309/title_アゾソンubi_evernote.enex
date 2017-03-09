@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export3.dtd">
+<en-export export-date="20170309T072827Z" application="Evernote" version="Evernote Mac 6.10 (454267)">
+<note><title>アゾソンUbi</title><content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
 <en-note>
 <div style="background-color: #fff; box-sizing: border-box; color: black; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.6; min-width: 680px; padding: 20px;">
@@ -13,28 +16,29 @@
 <ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
 <li style="list-style-type: disc;">東芝の人
 <ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
-<li style="list-style-type: circle;">最終的な目標としてゲームが有るならどのように即応性とかを向上させていくのか？</li>
+<li style="list-style-type: circle;">最終的な目標としてゲームが有るならどのように</li>
 </ul>
 </li>
 <li style="list-style-type: disc;">チェア
 <ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
 <li style="list-style-type: circle;">ゲームを先に考えるのが普通かなと思ったけど、実際にはどう進んだのか？</li>
+<li style="list-style-type: circle;">筋トレ</li>
 </ul>
 </li>
 <li style="list-style-type: disc;">誰か
 <ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
 <li style="list-style-type: circle;">ダンベルにこだわりすぎてるのでは?</li>
-<li style="list-style-type: circle;">別のところにチューブが繋がってて総重量が変化するのは?</li>
-<li style="list-style-type: circle;">VRとかと親和性高そうだけど、VRでもそんなにストイックではないよ</li>
+<li style="list-style-type: circle;">別のところにチューブが繋がってて</li>
 </ul>
 </li>
 </ul>
 <div style="display: none; margin-bottom: 0;" title="evnd-note-id">
 <p style="margin: 15px 10px 15px 0;">[Note ID: 3c8b2e8b660694256189aeffaeaf1d8d]</p>
 <div style="display: none;" title="evnd-time-stamp">
-<p>2017-03-09 16:28:26</p>
+<p>2017-03-09 16:27:31</p>
 </div>
 </div>
 </div>
 </en-note>
-
+]]></content><created>20170309T072729Z</created><updated>20170309T072731Z</updated><tag>evnd</tag><tag>Ubi</tag><note-attributes><source>desktop.mac</source><source-url>/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi.enml</source-url><reminder-order>0</reminder-order></note-attributes></note>
+</en-export>

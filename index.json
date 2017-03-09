@@ -543,9 +543,9 @@
     "[Note ID: 3c8b2e8b660694256189aeffaeaf1d8d]": {
         "creationTime": "2017-03-09 16:27:16",
         "enCreationDate": "20170309T162729",
-        "lastSyncDate": null,
-        "enModificationDate": "20170309T162731",
-        "modificationTime": "2017-03-09 16:27:30",
+        "lastSyncDate": "20170309T162731",
+        "enModificationDate": "20170309T162828",
+        "modificationTime": "2017-03-09 16:28:27",
         "metaDate": null,
         "dir": "20170309",
         "path": "/Users/sho/Google_Drive/evnd/20170309",
@@ -559,7 +559,10 @@
             "name": "mazamachi のノートブック",
             "type": "synchronized"
         },
-        "enExportedFiles": [],
+        "enExportedFiles": [
+            "/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi_evernote.html/",
+            "/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi_evernote.enex"
+        ],
         "format": "Markdown",
         "fnStem": "title_アゾソンubi",
         "enml": null,
@@ -576,6 +579,9 @@
         "renderOptions": {
             "mathjax": true
         },
-        "contentMD5": "6aa31ee710c1b791739b51fed5ac2e23"
+        "contentMD5": "6aa31ee710c1b791739b51fed5ac2e23",
+        "dontChangeTime": true,
+        "filePath": "/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi.markdown",
+        "moved": false
     }
 }
