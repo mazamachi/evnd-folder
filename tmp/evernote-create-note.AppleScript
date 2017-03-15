@@ -5,16 +5,16 @@ on readFile(unixPath)
 	return newcontent
 end readFile
 
-set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi.enml")
+set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170315/google_intern_candidate_information.enml")
 set infostr to ""
 tell application "Evernote"
-	set note1 to create note title "アゾソンUbi" with enml newcontent tags {"EVND", "Ubi"} 
-	if (notebook named "mazamachi のノートブック" exists) then
-		move note1 to notebook "mazamachi のノートブック"
+	set note1 to create note title "Google Intern candidate information" with enml newcontent tags {"EVND", "career/internship"} 
+	if (notebook named "EVND" exists) then
+		move note1 to notebook "EVND"
 	else
 		set infostr to infostr & "(notebook does not exist)"
 	end if
-	set source URL of note1 to "/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi.enml"
+	set source URL of note1 to "/Users/sho/Google_Drive/evnd/20170315/google_intern_candidate_information.enml"
 	set date1 to creation date of note1
 end tell
 

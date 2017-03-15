@@ -5,10 +5,10 @@ on readFile(unixPath)
 	return newcontent
 end readFile
 
-set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170309/title_アゾソンubi.html")
+set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170315/google_intern_candidate_information.html")
 set infostr to ""
 tell application "Evernote"
-	set pnotes to find notes "[Note ID: 3c8b2e8b660694256189aeffaeaf1d8d] created:20170309T162727 -created:20170309T162731"
+	set pnotes to find notes " created:20170315T120618 -created:20170315T120622 notebook:\"EVND\""
 	set count1 to count of pnotes
 	if count1 equals 1 then
 		set note1 to item 1 of pnotes
@@ -16,12 +16,12 @@ tell application "Evernote"
 		set note1 to missing value
 	end if
 	if note1 is not missing value then
-		if (notebook named "mazamachi のノートブック" exists) then
-			move note1 to notebook "mazamachi のノートブック"
+		if (notebook named "EVND" exists) then
+			move note1 to notebook "EVND"
 		else
 			set infostr to infostr & "(notebook does not exist)"
 		end if
-		set title of note1 to "アゾソンUbi"
+		set title of note1 to "Google Intern candidate information"
 		set HTML content of note1 to newcontent
 		set oldtags to tags of note1
 		set count2 to count of oldtags
@@ -34,10 +34,10 @@ tell application "Evernote"
 			set tag1 to tag "evnd"
 		end if
 		assign tag1 to note1
-		if (not (tag named "ubi" exists)) then
-			set tag1 to make tag with properties {name: "ubi"}
+		if (not (tag named "career/internship" exists)) then
+			set tag1 to make tag with properties {name: "career/internship"}
 		else
-			set tag1 to tag "ubi"
+			set tag1 to tag "career/internship"
 		end if
 		assign tag1 to note1
 		set date1 to modification date of note1
