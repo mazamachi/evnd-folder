@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<div style="background-color: #fff; box-sizing: border-box; color: black; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.6; min-width: 680px; padding: 20px;">
+<div style="display: block; width: 100%;" title="evnd-toc-div">
+<ul style="list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 50px; margin-left: 10px; margin-right: 10px; margin-top: 50px; padding-bottom: 3px; padding-left: 10px; padding-right: 10px; padding-top: 3px;" title="evnd-toc">
+<li style="border-bottom: 1px solid #ccc; border-left: none; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">2017-03-15</a></span></li>
+<li style="list-style: none; display: inline">
+<ul style="border-left: 1px solid #ccc; list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 5px; margin-left: 0; margin-right: 0; margin-top: 5px; padding-bottom: 3px; padding-left: 30px; padding-right: 0; padding-top: 3px;">
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">話すこと</a></span></li>
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">話したこと</a></span></li>
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">次すること</a></span></li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #ddd; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 30px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m2017-03-15"/>2017-03-15</h1>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m-"/>話すこと</h2>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">ubi研</li>
+<li style="list-style-type: disc;">インタビューの場所</li>
+</ul>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m-2"/>話したこと</h2>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">枠がなかった</li>
+<li style="list-style-type: disc;">機械学習とコンピュータビジョンをやっていく
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">今月末のデータ集めまでにCVやってみて、4月の半ばくらいにExpertReviewとかをしてみる</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">今あるデータセットでどういうデータが取れるかやってみる
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">暗いやつを省くとか</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">5月始め</li>
+<li style="list-style-type: disc;">4/15までに一通り</li>
+<li style="list-style-type: disc;">もしそれを逃しても、ASSETSの論文誌という手段もある</li>
+<li style="list-style-type: disc;">front なのはとれるはず
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">edge detection して平行線</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">road も取れるはず
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">下の方の黒い領域とかを取ってみる</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">door
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;"><a style="color: #4183c4; margin-top: 0;" href="https://link.springer.com/chapter/10.1007/978-3-642-14100-3_39">Computer Vision-Based Door Detection for Accessibility of Unfamiliar Environments to Blind Persons | SpringerLink</a></li>
+</ul>
+</li>
+<li style="list-style-type: disc;">stepは難しいかも
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">それほど問題ではないのかな</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">edge detectionは使えるはず</li>
+<li style="list-style-type: disc;">CVができたら食べログとかで簡単に表示してみる</li>
+<li style="list-style-type: disc;">qualitative studyもやってみる</li>
+</ul>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m-3"/>次すること</h2>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">本格的にCVやってみる</li>
+</ul>
+<div style="display: none; margin-bottom: 0;" title="evnd-note-id">
+<p style="margin: 15px 10px 15px 0;">[Note ID: a135adac375d2922ea046fa12e613b2e]</p>
+<div style="display: none;" title="evnd-time-stamp">
+<p>2017-03-21 03:36:30</p>
+</div>
+</div>
+</div>
+</en-note>
+

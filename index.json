@@ -658,6 +658,82 @@
             "mathjax": true
         },
         "contentMD5": "6fbe5a2868d9f1d5d0d2d5ed7cf304ff",
-        "dontChangeTime": true
+        "dontChangeTime": true,
+        "reconstruct": true
+    },
+    "[Note ID: 278f7e3bee6fe87b45d32bd258fd19c4]": {
+        "creationTime": "2017-03-15 14:22:53",
+        "enCreationDate": null,
+        "lastSyncDate": null,
+        "enModificationDate": null,
+        "modificationTime": "2017-03-15 14:22:53",
+        "metaDate": null,
+        "dir": "20170315/",
+        "path": "/Users/sho/Google_Drive/evnd/20170315/",
+        "title": "2017-03-15-1to1",
+        "noteLink": null,
+        "tags": [
+            "EVND",
+            "research/1to1"
+        ],
+        "notebook": {
+            "name": null
+        },
+        "enExportedFiles": [],
+        "format": "Markdown",
+        "fnStem": "2017-03-15-1to1",
+        "enml": null,
+        "attachments": {},
+        "addAttachments": false,
+        "text": null,
+        "html": null,
+        "rawHTML": null,
+        "css": null,
+        "syncdContent": null,
+        "id": "[Note ID: 278f7e3bee6fe87b45d32bd258fd19c4]",
+        "header": "<head><title>2017-03-15-1to1</title><link rel=\"stylesheet\" type=\"text/css\" href=\"2017-03-15-1to1_style.css\"></head>",
+        "queryString": "[Note ID: 278f7e3bee6fe87b45d32bd258fd19c4]",
+        "renderOptions": {
+            "mathjax": true
+        },
+        "contentMD5": "28e29b233f4dffcb7c23c1aa68bfcf68"
+    },
+    "[Note ID: a135adac375d2922ea046fa12e613b2e]": {
+        "creationTime": "2017-03-21 03:35:41",
+        "enCreationDate": "20170321T033544",
+        "lastSyncDate": null,
+        "enModificationDate": "20170321T033633",
+        "modificationTime": "2017-03-21 03:36:27",
+        "metaDate": null,
+        "dir": "20170315",
+        "path": "/Users/sho/Google_Drive/evnd/20170315",
+        "title": "2017-03-15-1to1",
+        "noteLink": null,
+        "tags": [
+            "evnd",
+            "research/1to1"
+        ],
+        "notebook": {
+            "name": "EVND",
+            "type": "synchronized"
+        },
+        "enExportedFiles": [],
+        "format": "Markdown",
+        "fnStem": "1to1",
+        "enml": null,
+        "attachments": {},
+        "addAttachments": false,
+        "text": null,
+        "html": null,
+        "rawHTML": null,
+        "css": null,
+        "syncdContent": null,
+        "id": "[Note ID: a135adac375d2922ea046fa12e613b2e]",
+        "header": "<head><title>2017-03-15-1to1</title><link rel=\"stylesheet\" type=\"text/css\" href=\"/Users/sho/Google_Drive/evnd/20170315/1to1_style.css\"></head>",
+        "queryString": "[Note ID: a135adac375d2922ea046fa12e613b2e] created:20170321T033542 -created:20170321T033546",
+        "renderOptions": {
+            "mathjax": true
+        },
+        "contentMD5": "5634b641ebefe1cb7b92bc2a2820334e"
     }
 }

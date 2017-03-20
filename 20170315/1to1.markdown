@@ -1,0 +1,36 @@
+Title: 2017-03-15-1to1
+Notebook: EVND
+Tags: EVND, research/1to1
+
+[TOC]
+
+# 2017-03-15
+
+## 話すこと
++ ubi研
++ インタビューの場所
+
+## 話したこと
++ 枠がなかった
++ 機械学習とコンピュータビジョンをやっていく
+  + 今月末のデータ集めまでにCVやってみて、4月の半ばくらいにExpertReviewとかをしてみる
++ 今あるデータセットでどういうデータが取れるかやってみる
+  + 暗いやつを省くとか
++ 5月始め
++ 4/15までに一通り
++ もしそれを逃しても、ASSETSの論文誌という手段もある
++ front なのはとれるはず
+  + edge detection して平行線
++ road も取れるはず
+  + 下の方の黒い領域とかを取ってみる
++ door
+  + [Computer Vision\-Based Door Detection for Accessibility of Unfamiliar Environments to Blind Persons \| SpringerLink](https://link.springer.com/chapter/10.1007/978-3-642-14100-3_39)
++ stepは難しいかも
+  + それほど問題ではないのかな
++ edge detectionは使えるはず
++ CVができたら食べログとかで簡単に表示してみる
++ qualitative studyもやってみる
+
+## 次すること
++ 本格的にCVやってみる
+
