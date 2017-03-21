@@ -813,14 +813,14 @@
     "[Note ID: ae84abfed0bcc4e5261ff25fbbfbaf51]": {
         "creationTime": "2017-03-21 19:44:08",
         "enCreationDate": "20170321T194411",
-        "lastSyncDate": "20170321T194414",
-        "enModificationDate": "20170321T194544",
-        "modificationTime": "2017-03-21 19:45:41",
+        "lastSyncDate": "20170321T194544",
+        "enModificationDate": "20170321T200230",
+        "modificationTime": "2017-03-21 20:02:28",
         "metaDate": null,
         "dir": "20170321",
         "path": "/Users/sho/Google_Drive/evnd/20170321",
         "title": "A tour of Go",
-        "noteLink": null,
+        "noteLink": "evernote:///view/2147483647/s133/6b5e3d3d-b161-49c3-bbd4-6c4ea784b618/6b5e3d3d-b161-49c3-bbd4-6c4ea784b618/",
         "tags": [
             "evnd",
             "programming"

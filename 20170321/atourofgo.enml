@@ -8,6 +8,7 @@
 <li style="list-style: none; display: inline">
 <ul style="border-left: 1px solid #ccc; list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 5px; margin-left: 0; margin-right: 0; margin-top: 5px; padding-bottom: 3px; padding-left: 30px; padding-right: 0; padding-top: 3px;">
 <li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">basics</a></span></li>
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">flow control</a></span></li>
 </ul>
 </li>
 </ul>
@@ -16,12 +17,28 @@
 <h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:basics"/>basics</h2>
 <ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
 <li style="list-style-type: disc;">大文字で始まる名前は外部のパッケージから参照できる</li>
-<li style="list-style-type: disc;"><code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; margin-top: 0; padding: 0 5px; text-shadow: none; white-space: nowrap;">func add(x int, y int) int { return x + y }</code> &lt;- キモw</li>
+<li style="list-style-type: disc;"><code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; margin-top: 0; padding: 0 5px; text-shadow: none; white-space: nowrap;">func add(x int, y int) int { return x + y }</code> キモw
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">宣言があとにある理由は<a style="color: #4183c4; margin-top: 0;" href="https://blog.golang.org/gos-declaration-syntax">Go's declaration syntax</a>（あとで読みたい）
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: square;">左から右に読むほうが普通でしょって話っぽい</li>
 </ul>
+</li>
+<li style="list-style-type: circle;">省略して <code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; margin-top: 0; padding: 0 5px; text-shadow: none; white-space: nowrap;">add(x, y int)</code> としても良い</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">名前付き戻り値をドキュメント的に使うことが推奨
+<pre style="background-color: #ececec; border-radius: 2px; color: #000000; display: inline-block; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 5px 10px 5px 0; margin-bottom: 5px; margin-top: 5px; padding: 10px 20px; vertical-align: top; white-space: pre-wrap; width: 100%; word-break: break-all; word-wrap: break-word;" title="fenced-code-block-go">
+<span style="display: block;"><span><span style="color: #A71D5D; font-weight: bold;"><span>func</span></span><span> </span><span style="color: #990000; font-weight: bold;"><span>split</span></span><span><span>(</span></span><span>sum </span><span style="color: #000000; font-weight: bold;"><span>int</span></span><span><span>)</span></span><span> </span><span><span>(</span></span><span>x</span><span><span>,</span></span><span> y </span><span style="color: #000000; font-weight: bold;"><span>int</span></span><span><span>)</span></span><span> </span><span><span>{</span></span></span></span><span style="display: block;"><span><span>    </span><span style="color: #108888;"><span>x</span></span><span> </span><span style="color: #000000; font-weight: bold;"><span>=</span></span><span> sum </span><span style="color: #A71D5D; font-weight: bold;"><span>*</span></span><span> </span><span style="color: #009999;"><span>4</span></span><span> </span><span style="color: #A71D5D; font-weight: bold;"><span>/</span></span><span> </span><span style="color: #009999;"><span>9</span></span></span></span><span style="display: block;"><span><span>    </span><span style="color: #108888;"><span>y</span></span><span> </span><span style="color: #000000; font-weight: bold;"><span>=</span></span><span> sum </span><span style="color: #A71D5D; font-weight: bold;"><span>-</span></span><span> x</span></span></span><span style="display: block;"><span><span>    </span><span style="color: #A71D5D; font-weight: bold;"><span>return</span></span></span></span><span style="display: block;"><span><span><span>}</span></span></span></span>
+</pre></li>
+<li style="list-style-type: disc;">変数宣言は <code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; margin-top: 0; padding: 0 5px; text-shadow: none; white-space: nowrap;">var i int = 1</code>とか、暗黙的な方宣言は <code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; padding: 0 5px; text-shadow: none; white-space: nowrap;">k := 2</code> とか</li>
+<li style="list-style-type: disc;"><code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; margin-top: 0; padding: 0 5px; text-shadow: none; white-space: nowrap;">const</code> は64-bit以上の整数を保持できる高精度な値</li>
+</ul>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:flow-control"/>flow control</h2>
 <div style="display: none; margin-bottom: 0;" title="evnd-note-id">
 <p style="margin: 15px 10px 15px 0;">[Note ID: ae84abfed0bcc4e5261ff25fbbfbaf51]</p>
 <div style="display: none;" title="evnd-time-stamp">
-<p>2017-03-21 19:45:41</p>
+<p>2017-03-21 20:02:28</p>
 </div>
 </div>
 </div>
