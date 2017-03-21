@@ -9,7 +9,7 @@ Notebook: EVND
 ## basics
 + 大文字で始まる名前は外部のパッケージから参照できる
 + `func add(x int, y int) int { return x + y }`  キモw
-  + 宣言があとにある理由は[Go's declaration syntax](https://blog.golang.org/gos-declaration-syntax)（あとで読みたい）
+  + 宣言があとにある理由は[Go's declaration syntax](https://blog.golang.org/gos-declaration-syntax)
     + 左から右に読むほうが普通でしょって話っぽい
   + 省略して `add(x, y int)` としても良い
 + 名前付き戻り値をドキュメント的に使うことが推奨
@@ -40,6 +40,9 @@ Notebook: EVND
   ```
 + switchはcaseの最後で自動で気にbrakeする
   + `if ... elslif ... elsif ...` のかわりに、`switch { case ... case ... }` を使うらしい
++ defer ステートメントを使うと、関数の実行を呼び出し元の終了まで遅延させる
+  + ただし、引数の内容はすぐに評価される
+  + stackなので、LIFO
 
 ### Exercise ニュートン法
 10回繰り返す

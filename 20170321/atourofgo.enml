@@ -24,7 +24,7 @@
 <li style="list-style-type: disc;">大文字で始まる名前は外部のパッケージから参照できる</li>
 <li style="list-style-type: disc;"><code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; margin-top: 0; padding: 0 5px; text-shadow: none; white-space: nowrap;">func add(x int, y int) int { return x + y }</code> キモw
 <ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
-<li style="list-style-type: circle;">宣言があとにある理由は<a style="color: #4183c4; margin-top: 0;" href="https://blog.golang.org/gos-declaration-syntax">Go's declaration syntax</a>（あとで読みたい）
+<li style="list-style-type: circle;">宣言があとにある理由は<a style="color: #4183c4; margin-top: 0;" href="https://blog.golang.org/gos-declaration-syntax">Go's declaration syntax</a>
 <ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
 <li style="list-style-type: square;">左から右に読むほうが普通でしょって話っぽい</li>
 </ul>
@@ -55,6 +55,12 @@
 <li style="list-style-type: circle;"><code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; margin-top: 0; padding: 0 5px; text-shadow: none; white-space: nowrap;">if ... elslif ... elsif ...</code> のかわりに、<code style="background-color: #fbf6f8; border: 1px solid #f3e4ea; border-radius: 3px; color: #c7254e; font-family: Consolas, 'Liberation Mono', Courier, monospace; font-size: 16px; font-weight: inherit; line-height: 1.6; margin: 0 2px; padding: 0 5px; text-shadow: none; white-space: nowrap;">switch { case ... case ... }</code> を使うらしい</li>
 </ul>
 </li>
+<li style="list-style-type: disc;">defer ステートメントを使うと、関数の実行を呼び出し元の終了まで遅延させる
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">ただし、引数の内容はすぐに評価される</li>
+<li style="list-style-type: circle;">stackなので、LIFO</li>
+</ul>
+</li>
 </ul>
 <h3 style="-webkit-font-smoothing: antialiased; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 22px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:exercise-"/>Exercise ニュートン法</h3>
 <p style="margin: 15px 10px 15px 0; margin-top: 0;">10回繰り返す</p>
@@ -68,7 +74,7 @@
 <div style="display: none; margin-bottom: 0;" title="evnd-note-id">
 <p style="margin: 15px 10px 15px 0;">[Note ID: ae84abfed0bcc4e5261ff25fbbfbaf51]</p>
 <div style="display: none;" title="evnd-time-stamp">
-<p>2017-03-21 20:19:18</p>
+<p>2017-03-21 20:21:35</p>
 </div>
 </div>
 </div>
