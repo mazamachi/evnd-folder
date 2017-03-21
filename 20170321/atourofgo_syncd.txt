@@ -41,8 +41,10 @@ Notebook: EVND
 + switchはcaseの最後で自動で気にbrakeする
   + `if ... elslif ... elsif ...` のかわりに、`switch { case ... case ... }` を使うらしい
 + defer ステートメントを使うと、関数の実行を呼び出し元の終了まで遅延させる
+  + ファイルを開いたりするときに使うっぽい
   + ただし、引数の内容はすぐに評価される
   + stackなので、LIFO
+  + 詳しくは [Defer, Panic, and Recover \- The Go Blog](https://blog.golang.org/defer-panic-and-recover)
 
 ### Exercise ニュートン法
 10回繰り返す

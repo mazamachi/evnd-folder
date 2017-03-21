@@ -57,8 +57,10 @@
 </li>
 <li style="list-style-type: disc;">defer ステートメントを使うと、関数の実行を呼び出し元の終了まで遅延させる
 <ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">ファイルを開いたりするときに使うっぽい</li>
 <li style="list-style-type: circle;">ただし、引数の内容はすぐに評価される</li>
 <li style="list-style-type: circle;">stackなので、LIFO</li>
+<li style="list-style-type: circle;">詳しくは <a style="color: #4183c4; margin-top: 0;" href="https://blog.golang.org/defer-panic-and-recover">Defer, Panic, and Recover - The Go Blog</a></li>
 </ul>
 </li>
 </ul>
@@ -74,7 +76,7 @@
 <div style="display: none; margin-bottom: 0;" title="evnd-note-id">
 <p style="margin: 15px 10px 15px 0;">[Note ID: ae84abfed0bcc4e5261ff25fbbfbaf51]</p>
 <div style="display: none;" title="evnd-time-stamp">
-<p>2017-03-21 20:21:35</p>
+<p>2017-03-21 20:24:41</p>
 </div>
 </div>
 </div>
