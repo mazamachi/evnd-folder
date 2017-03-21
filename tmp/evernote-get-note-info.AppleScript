@@ -54,7 +54,7 @@ end noteInfoToString
 
 tell application "Evernote"
 	set infostring to missing value
-	set pnotes to find notes " created:20170321T124823 -created:20170321T124827 notebook:\"EVND\""
+	set pnotes to find notes " created:20170321T194409 -created:20170321T194413 notebook:\"EVND\""
 	set count1 to count of pnotes
 	if count1 equals 1 then
 		set note1 to item 1 of pnotes

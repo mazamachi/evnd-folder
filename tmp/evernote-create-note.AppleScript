@@ -1,20 +1,3 @@
-
-on stringToDate(y, m, d, h, mm, ss)
-	set newDate to date (m & "/" & d & "/" & y)
-	set hours of newDate to h
-	set minutes of newDate to mm
-	set seconds of newDate to ss
-	return newDate
-end stringToDate
-
-set y to "2017"
-set m to "03"
-set d to "21"
-set h to "12"
-set mm to "48"
-set ss to "25"
-set date0 to stringToDate(y, m, d, h, mm, ss)
-
 on readFile(unixPath)
 	set targetFile to (open for access (POSIX file unixPath))
 	set newcontent to (read targetFile as «class utf8»)
@@ -22,16 +5,16 @@ on readFile(unixPath)
 	return newcontent
 end readFile
 
-set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170321/1to1.enml")
+set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170321/atourofgo.enml")
 set infostr to ""
 tell application "Evernote"
-	set note1 to create note title "2017/03/21" with enml newcontent tags {"evnd", "research/1to1"}  created date0
+	set note1 to create note title "A tour of Go" with enml newcontent tags {"EVND", "programming"} 
 	if (notebook named "EVND" exists) then
 		move note1 to notebook "EVND"
 	else
 		set infostr to infostr & "(notebook does not exist)"
 	end if
-	set source URL of note1 to "/Users/sho/Google_Drive/evnd/20170321/1to1.enml"
+	set source URL of note1 to "/Users/sho/Google_Drive/evnd/20170321/atourofgo.enml"
 	set date1 to creation date of note1
 end tell
 
