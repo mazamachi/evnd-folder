@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<div style="background-color: #fff; box-sizing: border-box; color: black; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.6; min-width: 680px; padding: 20px;">
+<div style="display: block; width: 100%;" title="evnd-toc-div">
+<ul style="list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 50px; margin-left: 10px; margin-right: 10px; margin-top: 50px; padding-bottom: 3px; padding-left: 10px; padding-right: 10px; padding-top: 3px;" title="evnd-toc">
+<li style="border-bottom: 1px solid #ccc; border-left: none; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">2017/03/28</a></span></li>
+<li style="list-style: none; display: inline">
+<ul style="border-left: 1px solid #ccc; list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 5px; margin-left: 0; margin-right: 0; margin-top: 5px; padding-bottom: 3px; padding-left: 30px; padding-right: 0; padding-top: 3px;">
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">話すこと</a></span></li>
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">話したこと</a></span></li>
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">次やること</a></span></li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #ddd; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 30px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m2017-03-28"/>2017/03/28</h1>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m-"/>話すこと</h2>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">今日のインタビューは19時から</li>
+<li style="list-style-type: disc;">ディープラーニングをやりつつある</li>
+</ul>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m-2"/>話したこと</h2>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">書類の用意</li>
+<li style="list-style-type: disc;">1730くらいに飯</li>
+<li style="list-style-type: disc;">食べログの画像を見て自分が行けるかどうかの判断に有用かを聞く
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;"><strong style="margin-top: 0;">研究の話を先にしてしまうとまずい</strong></li>
+<li style="list-style-type: circle;">データを集めているだけ</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">6月後半にサーベイ輪講
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">情報可視化の中で何のトピックがあるのかとか</li>
+<li style="list-style-type: circle;">どういう情報可視化があるのか</li>
+<li style="list-style-type: circle;">4月の1to1では</li>
+<li style="list-style-type: circle;">1週間の中で1日くらいはサーベイに時間をとる</li>
+</ul>
+</li>
+</ul>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m-3"/>次やること</h2>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">指導教員推薦初見はpdfもしくはスキャンして送る</li>
+</ul>
+<div style="display: none; margin-bottom: 0;" title="evnd-note-id">
+<p style="margin: 15px 10px 15px 0;">[Note ID: 5563ce34af2a1f9109017f1f59bffc1d]</p>
+<div style="display: none;" title="evnd-time-stamp">
+<p>2017-03-28 16:51:32</p>
+</div>
+</div>
+</div>
+</en-note>
+

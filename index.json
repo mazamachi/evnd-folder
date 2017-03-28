@@ -853,5 +853,80 @@
         "dontChangeTime": true,
         "filePath": "/Users/sho/Google_Drive/evnd/20170321/atourofgo.md",
         "moved": false
+    },
+    "[Note ID: c9c3ecb65cef17af709e142aad105048]": {
+        "creationTime": "2017-03-28 11:43:13",
+        "enCreationDate": null,
+        "lastSyncDate": null,
+        "enModificationDate": null,
+        "modificationTime": "2017-03-28 11:43:13",
+        "metaDate": null,
+        "dir": "20170328/",
+        "path": "/Users/sho/Google_Drive/evnd/20170328/",
+        "title": "2017/03/28",
+        "noteLink": null,
+        "tags": [
+            "EVND",
+            "research/1to1"
+        ],
+        "notebook": {
+            "name": "EVND"
+        },
+        "enExportedFiles": [],
+        "format": "Markdown",
+        "fnStem": "2017_03_28",
+        "enml": null,
+        "attachments": {},
+        "addAttachments": false,
+        "text": null,
+        "html": null,
+        "rawHTML": null,
+        "css": null,
+        "syncdContent": null,
+        "id": "[Note ID: c9c3ecb65cef17af709e142aad105048]",
+        "header": "<head><title>2017/03/28</title><link rel=\"stylesheet\" type=\"text/css\" href=\"2017_03_28_style.css\"></head>",
+        "queryString": "[Note ID: c9c3ecb65cef17af709e142aad105048]",
+        "renderOptions": {
+            "mathjax": true
+        },
+        "contentMD5": "1410ce952295d50b4026f068edcd1823"
+    },
+    "[Note ID: 5563ce34af2a1f9109017f1f59bffc1d]": {
+        "creationTime": "2017-03-28 16:51:25",
+        "enCreationDate": "20170328T165129",
+        "lastSyncDate": null,
+        "enModificationDate": "20170328T165133",
+        "modificationTime": "2017-03-28 16:51:32",
+        "metaDate": null,
+        "dir": "20170328",
+        "path": "/Users/sho/Google_Drive/evnd/20170328",
+        "title": "2017/03/28",
+        "noteLink": null,
+        "tags": [
+            "evnd",
+            "research/1to1"
+        ],
+        "notebook": {
+            "name": "EVND",
+            "type": "synchronized"
+        },
+        "enExportedFiles": [],
+        "format": "Markdown",
+        "fnStem": "1to1",
+        "enml": null,
+        "attachments": {},
+        "addAttachments": false,
+        "text": null,
+        "html": null,
+        "rawHTML": null,
+        "css": null,
+        "syncdContent": null,
+        "id": "[Note ID: 5563ce34af2a1f9109017f1f59bffc1d]",
+        "header": "<head><title>2017/03/28</title><link rel=\"stylesheet\" type=\"text/css\" href=\"/Users/sho/Google_Drive/evnd/20170328/1to1_style.css\"></head>",
+        "queryString": "[Note ID: 5563ce34af2a1f9109017f1f59bffc1d] created:20170328T165127 -created:20170328T165131",
+        "renderOptions": {
+            "mathjax": true
+        },
+        "contentMD5": "0c451a9cb2f5ae3fadc7fa951ed4dfdf"
     }
 }
