@@ -1,5 +1,5 @@
 tell application "Evernote"
-	set pnotes to find notes " created:20170328T165127 -created:20170328T165131 notebook:\"EVND\""
+	set pnotes to find notes " created:20170329T164241 -created:20170329T164245 notebook:\"EVND\""
 	set count1 to count of pnotes
 	if count1 equals 1 then
 		set note1 to item 1 of pnotes

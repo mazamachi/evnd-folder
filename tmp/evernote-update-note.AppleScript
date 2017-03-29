@@ -5,10 +5,10 @@ on readFile(unixPath)
 	return newcontent
 end readFile
 
-set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170328/1to1.html")
+set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170329/shiba共著.html")
 set infostr to ""
 tell application "Evernote"
-	set pnotes to find notes " created:20170328T165127 -created:20170328T165131 notebook:\"EVND\""
+	set pnotes to find notes " created:20170329T164241 -created:20170329T164245 notebook:\"EVND\""
 	set count1 to count of pnotes
 	if count1 equals 1 then
 		set note1 to item 1 of pnotes
@@ -21,7 +21,7 @@ tell application "Evernote"
 		else
 			set infostr to infostr & "(notebook does not exist)"
 		end if
-		set title of note1 to "2017/03/28"
+		set title of note1 to "shiba共著"
 		set HTML content of note1 to newcontent
 		set oldtags to tags of note1
 		set count2 to count of oldtags
@@ -34,10 +34,10 @@ tell application "Evernote"
 			set tag1 to tag "evnd"
 		end if
 		assign tag1 to note1
-		if (not (tag named "research/1to1" exists)) then
-			set tag1 to make tag with properties {name: "research/1to1"}
+		if (not (tag named "research/shiba" exists)) then
+			set tag1 to make tag with properties {name: "research/shiba"}
 		else
-			set tag1 to tag "research/1to1"
+			set tag1 to tag "research/shiba"
 		end if
 		assign tag1 to note1
 		set date1 to modification date of note1
