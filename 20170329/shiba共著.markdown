@@ -1,8 +1,24 @@
 Title: shiba共著
+Tags: research/shiba
 Notebook: EVND
-Tags: evnd, research/shiba
 
 [TOC]
 
 # shiba共著
 
+## todo
+宮崎がやること
++ t検定
+  + アルゴリズムの実行速度の違いについて
+  + 先生のwikiを見る
++ データのt検定
+  + ユーザースタディ
+  + どれくらい優勢か？
+    + 多分、ちょっと優勢くらい
++ コメント起こし
+
+
+
++ 図の統一
++ 明日の時点で5人のユーザースタディが終わっている
+  + とりあえずの結果を出してみる

@@ -4,14 +4,48 @@
 <div style="background-color: #fff; box-sizing: border-box; color: black; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.6; min-width: 680px; padding: 20px;">
 <div style="display: block; width: 100%;" title="evnd-toc-div">
 <ul style="list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 50px; margin-left: 10px; margin-right: 10px; margin-top: 50px; padding-bottom: 3px; padding-left: 10px; padding-right: 10px; padding-top: 3px;" title="evnd-toc">
-<li style="border-bottom: 1px dashed #ccc; border-left: none; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">shiba共著</a></span></li>
+<li style="border-bottom: 1px solid #ccc; border-left: none; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">shiba共著</a></span></li>
+<li style="list-style: none; display: inline">
+<ul style="border-left: 1px solid #ccc; list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 5px; margin-left: 0; margin-right: 0; margin-top: 5px; padding-bottom: 3px; padding-left: 30px; padding-right: 0; padding-top: 3px;">
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">todo</a></span></li>
+</ul>
+</li>
 </ul>
 </div>
 <h1 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #ddd; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 30px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:shiba-"/>shiba共著</h1>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:todo"/>todo</h2>
+<p style="margin: 15px 10px 15px 0; margin-top: 0;">宮崎がやること</p>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">t検定
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">アルゴリズムの実行速度の違いについて</li>
+<li style="list-style-type: circle;">先生のwikiを見る</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">データのt検定
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">ユーザースタディ</li>
+<li style="list-style-type: circle;">どれくらい優勢か？
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: square;">多分、ちょっと優勢くらい</li>
+</ul>
+</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">コメント起こし</li>
+</ul>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">図の統一</li>
+<li style="list-style-type: disc;">明日の時点で5人のユーザースタディが終わっている
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">とりあえずの結果を出してみる</li>
+</ul>
+</li>
+</ul>
 <div style="display: none; margin-bottom: 0;" title="evnd-note-id">
 <p style="margin: 15px 10px 15px 0;">[Note ID: 5524df138101bd29aa96c10bc2b7c0d0]</p>
 <div style="display: none;" title="evnd-time-stamp">
-<p>2017-03-29 16:42:47</p>
+<p>2017-03-29 16:50:45</p>
 </div>
 </div>
 </div>

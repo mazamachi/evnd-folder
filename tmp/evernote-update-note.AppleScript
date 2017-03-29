@@ -8,13 +8,7 @@ end readFile
 set newcontent to readFile("/Users/sho/Google_Drive/evnd/20170329/shiba共著.html")
 set infostr to ""
 tell application "Evernote"
-	set pnotes to find notes " created:20170329T164241 -created:20170329T164245 notebook:\"EVND\""
-	set count1 to count of pnotes
-	if count1 equals 1 then
-		set note1 to item 1 of pnotes
-	else
-		set note1 to missing value
-	end if
+	set note1 to find note "evernote:///view/2147483647/s133/cfb187aa-66f2-4b84-9da8-fe162519f51f/cfb187aa-66f2-4b84-9da8-fe162519f51f/"
 	if note1 is not missing value then
 		if (notebook named "EVND" exists) then
 			move note1 to notebook "EVND"
