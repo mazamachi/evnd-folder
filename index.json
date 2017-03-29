@@ -894,7 +894,7 @@
     "[Note ID: 5563ce34af2a1f9109017f1f59bffc1d]": {
         "creationTime": "2017-03-28 16:51:25",
         "enCreationDate": "20170328T165129",
-        "lastSyncDate": null,
+        "lastSyncDate": "20170328T165133",
         "enModificationDate": "20170328T165133",
         "modificationTime": "2017-03-28 16:51:32",
         "metaDate": null,
@@ -927,6 +927,7 @@
         "renderOptions": {
             "mathjax": true
         },
-        "contentMD5": "0c451a9cb2f5ae3fadc7fa951ed4dfdf"
+        "contentMD5": "0c451a9cb2f5ae3fadc7fa951ed4dfdf",
+        "dontChangeTime": true
     }
 }
