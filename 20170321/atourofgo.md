@@ -217,3 +217,218 @@ func main() {
 	}
 }
 ```
+
+## Methods and Interfaces
++ クラスはないけど型にメソッドを定義できる
+  + `func` とメソッド名の間に引数として取る
+    ```go
+    func (v Vertex) Abs() float64 {
+      return math.Sqrt(v.X*v.X + v.Y*v.Y)
+    }
+    v.Abs()
+    ```
+  + structだけでなくtypeにも定義できる
+  + その型が同じファイルで定義されている必要がある
+    + _メソッドの定義が分散しない_
+  + レシーバ自身を変更するためにはポインタに対してメソッドを定義する必要がある
+    ```go
+    func (v *Vertex) Scale(f float64) {
+      v.X = v.X * f
+      v.Y = v.Y * f
+    }
+  ```
+    + ←参照渡しのため
+  + ポインタがレシーバでも、`v.Scale(f)` で呼べる
+    + `(&v).Scale(f)` と解釈される(便利)
+  + 変数レシーバかポインタレシーバかで統一すべき
++ メソッドの集まりとしてinterfaceを定義できる
+  ```go
+  type Abser interface {
+    Abs() float64
+  }
+  a = f  // a MyFloat implements Abser
+  a = &v // a *Vertex implements Abser
+  ```
+  + _structが値の集まりで、interfaceがメソッドの集まり?_
+  + インターフェースが要件としているメソッドさえ定義していれば明示的にimplementsなどのキーワードを書く必要はない
+    + [Why I like Go’s interfaces | theburningmonk.com](http://theburningmonk.com/2015/05/why-i-like-golang-interfaces/)
+    + 後からinterfaceを定義する時に元の型にimplementsと書かなくてよいのが楽らしい。なるほど。
+    + ダックタイピングみたいなものだけど、structual typing(構造的部分型)と言うらしい。このお陰で静的検査が可能っぽい
+  + `nil`をレシーバとして呼び出されても良いように実装するのが一般的
+  + 空のインターフェース`interface{}`を使えば、任意の型を取る関数を実装できる
++ `t, ok := i.(T)` とすることで、型アサーションを行える
++ 型によるスイッチもできる
+  ```go
+  switch v := i.(type) {
+    case int: ……
+  }
+  ```
++ Stringers interface の `String() string` は `fmt.Printf` とかでよく使う
+  + Exercise: Stringers 参照
+  + error 型の`Error() string` も似た感じ
+
+
+### Exercise: Stringers
+```go
+package main
+
+import "fmt"
+
+type IPAddr [4]byte
+
+// TODO: Add a "String() string" method to IPAddr.
+func (addr IPAddr) String() string {
+	return fmt.Sprintf("%v.%v.%v.%v", addr[0], addr[1], addr[2], addr[3])
+}
+
+func main() {
+	hosts := map[string]IPAddr{
+		"loopback":  {127, 0, 0, 1},
+		"googleDNS": {8, 8, 8, 8},
+	}
+	for name, ip := range hosts {
+		fmt.Printf("%v: %v\n", name, ip)
+	}
+}
+```
+
+### Exercise: Errors
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+type ErrNegativeSqrt float64
+
+func (neg ErrNegativeSqrt) Error() string {
+	return fmt.Sprintf("cannot Sqrt negative number: %v", float64(neg))
+}
+
+func Sqrt(x float64) (float64, error) {
+	if x < 0 {
+		return x, ErrNegativeSqrt(x)
+	}
+	var z float64 = x
+	for {
+		new_z := z - (z*z-x)/(2*z)
+//		fmt.Println(z)
+		if diff := math.Abs(new_z - z); diff < 0.000001 {
+			z = new_z
+			break
+		}
+		z = new_z
+	}
+	return z, nil
+}
+
+func main() {
+	fmt.Println(Sqrt(2))
+	fmt.Println(Sqrt(-2))
+}
+
+```
+
+### Exercise: Readers
+```go
+package main
+
+import "golang.org/x/tour/reader"
+
+type MyReader struct{}
+
+// TODO: Add a Read([]byte) (int, error) method to MyReader.
+func (r MyReader) Read(b []byte) (n int, err error) {
+	for i := 0; i < len(b); i++ {
+		b[i] = 'A'
+	}
+	return len(b), nil
+}
+
+func main() {
+	reader.Validate(MyReader{})
+}
+```
+
+### Exercise: Rot13 Reader
+```go
+package main
+
+import (
+	"io"
+	"os"
+	"strings"
+)
+
+type rot13Reader struct {
+	r io.Reader
+}
+
+func rot13(c byte) byte {
+	if c < 'A' || (c > 'Z' && c < 'a') || c > 'z' {
+		return c
+	}
+	c = c + 13
+	if (c > 'Z' && c < 'a') || c > 'z' {
+		return c - 26
+	} else {
+		return c
+	}
+}
+
+func (rot13reader rot13Reader) Read(read []byte) (n int, err error) {
+	n, err = rot13reader.r.Read(read)
+	if err != nil {
+		return 0, err
+	}
+	for i, c := range read {
+		read[i] = rot13(c)
+	}
+	return n, err
+}
+
+func main() {
+	s := strings.NewReader("Lbh penpxrq gur pbqr!")
+	r := rot13Reader{s}
+
+	io.Copy(os.Stdout, &r)
+}
+
+```
+
+### Exercise: Images
+```go
+package main
+
+import "golang.org/x/tour/pic"
+
+import (
+	"image"
+	"image/color"
+)
+
+type Image struct {
+	dx, dy int
+}
+
+func (im Image) Bounds() image.Rectangle {
+	return image.Rect(0, 0, im.dx, im.dy)
+}
+
+func (im Image) ColorModel() color.Model {
+	return color.RGBAModel
+}
+
+func (im Image) At(x, y int) color.Color {
+	v := uint8(x ^ y)
+	return color.RGBA{v, v, 255, 255}
+}
+
+func main() {
+	m := Image{100, 100}
+	pic.ShowImage(m)
+}
+
+```
