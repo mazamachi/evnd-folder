@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<div style="background-color: #fff; box-sizing: border-box; color: black; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 16px; line-height: 1.6; min-width: 680px; padding: 20px;">
+<div style="display: block; width: 100%;" title="evnd-toc-div">
+<div style="list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 50px; margin-left: 10px; margin-right: 10px; margin-top: 50px; padding-bottom: 3px; padding-left: 10px; padding-right: 10px; padding-top: 3px" title="evnd-toc">
+<ul style="border-left: 1px solid #ccc; list-style-type: none; margin: 15px 10px 15px 0; margin-bottom: 5px; margin-left: 0; margin-right: 0; margin-top: 5px; padding-bottom: 3px; padding-left: 30px; padding-right: 0; padding-top: 3px;">
+<li style="border-bottom: 1px dashed #ccc; font: 200 20px/1.5 Helvetica, Verdana, sans-serif; list-style-type: none;"><span style="margin-top: 0;"><a style="-moz-transition: font-size 0.3s ease, background-color 0.3s ease; -ms-transition: font-size 0.3s ease, background-color 0.3s ease; -o-transition: font-size 0.3s ease, background-color 0.3s ease; -webkit-transition: font-size 0.3s ease, background-color 0.3s ease; color: #000; display: block; text-decoration: none; transition: font-size 0.3s ease, background-color 0.3s ease; width: 80%;">質問</a></span></li>
+</ul>
+</div>
+</div>
+<h2 style="-webkit-font-smoothing: antialiased; border-bottom: 1px solid #eee; color: #000; cursor: text; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 26px; font-weight: bold; margin: 20px 0 10px; padding: 0 0 10px 0; position: relative;"><a style="color: #4183c4;" name="toc:m-"/>質問</h2>
+<ul style="margin: 15px 10px 15px 0; padding-left: 30px;">
+<li style="list-style-type: disc;">東芝の人
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">最終的な目標としてゲームが有るならどのように即応性とかを向上させていくのか？</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">チェア
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">ゲームを先に考えるのが普通かなと思ったけど、実際にはどう進んだのか？</li>
+</ul>
+</li>
+<li style="list-style-type: disc;">誰か
+<ul style="margin: 15px 10px 15px 0; margin-bottom: 0; margin-top: 0; padding-left: 30px;">
+<li style="list-style-type: circle;">ダンベルにこだわりすぎてるのでは?</li>
+<li style="list-style-type: circle;">別のところにチューブが繋がってて総重量が変化するのは?</li>
+<li style="list-style-type: circle;">VRとかと親和性高そうだけど、VRでもそんなにストイックではないよ</li>
+</ul>
+</li>
+</ul>
+<div style="display: none; margin-bottom: 0;" title="evnd-note-id">
+<p style="margin: 15px 10px 15px 0;">[Note ID: 3c8b2e8b660694256189aeffaeaf1d8d]</p>
+<div style="display: none;" title="evnd-time-stamp">
+<p>2017-03-09 16:28:26</p>
+</div>
+</div>
+</div>
+</en-note>
+
